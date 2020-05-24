@@ -5,8 +5,8 @@
 ### Headers
 ```
 # This is an <h1> tag
-### This is an <h2> tag
-########### This is an <h6> tag
+## This is an <h2> tag
+###### This is an <h6> tag
 
 This is an <h1> tag 
 ===================
@@ -139,7 +139,7 @@ I think you should use an
 <pre>```javascript
 function fancyAlert(arg) {
   if(arg) {
-    $.facebox({div:'##foo'})
+    $.facebox({div:'#foo'})
   }
 }
 ```</pre>
@@ -149,7 +149,7 @@ You can also simply indent your code by four spaces:
     function fancyAlert(arg) {
       if(arg) {
 
-        $.facebox({div:'##foo'})
+        $.facebox({div:'#foo'})
       }
     }
 </pre>
@@ -270,7 +270,7 @@ _   underscore
 {}  curly braces
 []  square brackets
 ()  parentheses
-##   hash mark
+#   hash mark
 +   plus sign
 -   minus sign (hyphen)
 .   dot
@@ -282,7 +282,7 @@ _   underscore
 
 ### Task Lists
 ```
-- [x] @mentions, ##refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
@@ -297,9 +297,9 @@ mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 
 ### Issue references within a repository
 ```
-##1
-mojombo##1
-mojombo/github-flavored-markdown##1
+#1
+mojombo#1
+mojombo/github-flavored-markdown#1
 ```
 
 ### Username @mentions
@@ -317,6 +317,7 @@ To see a list of every image we support, check out the [Emoji Cheat Sheet](https
 * https://guides.github.com/features/mastering-markdown/
 * https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 * https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+* https://www.markdownguide.org/cheat-sheet/
 
 
 ## Glossary
