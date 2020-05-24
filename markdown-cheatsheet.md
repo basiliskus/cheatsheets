@@ -32,6 +32,15 @@ Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
 ```
 
 
+### Blockquotes
+```
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
+```
+
+
 ### Lists
 
 #### Unordered
@@ -173,44 +182,6 @@ But let's throw in a <b>tag</b>.
 </pre>
 
 
-### Tables (GFM)
-```
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-```
-
-#### Examples
-```
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-```
-
-
-### Blockquotes
-```
-As Kanye West said:
-
-> We're living the future so
-> the present is our past.
-```
-
-
 ### Inline HTML
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 ```
@@ -278,9 +249,56 @@ _   underscore
 ```
 
 
-## GitHub Flavored Markdown (GFM)
+## Extended Syntax & GitHub Flavored Markdown (GFM)
 
-### Task Lists
+
+### Tables (GFM)
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+```
+
+#### Examples
+```
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+```
+
+### Footnote
+```
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote. 
+```
+
+### Heading ID
+```
+### My Great Heading {#custom-id}
+```
+
+### Definition List
+```
+term
+: definition
+```
+
+### Task Lists (GFM)
 ```
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
@@ -288,26 +306,26 @@ _   underscore
 - [ ] this is an incomplete item
 ```
 
-### SHA references
+### SHA references (GFM)
 ```
 16c999e8c71134401a78d4d46435517b2271d6ac
 mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
 mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 ```
 
-### Issue references within a repository
+### Issue references within a repository (GFM)
 ```
 #1
 mojombo#1
-mojombo/github-flavored-markdown#1
+mojombo/github-flavored-markdown#1 (GFM)
 ```
 
-### Username @mentions
+### Username @mentions (GFM)
 ```
 Typing an @ symbol, followed by a username, will notify that person to come and view the comment. This is called an “@mention”, because you’re mentioning the individual. You can also @mention teams within an organization.
 ```
 
-### Emoji
+### Emoji (GFM)
 ```
 To see a list of every image we support, check out the [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 ```
