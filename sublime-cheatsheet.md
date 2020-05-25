@@ -5,9 +5,9 @@
 ### Files
 `Ctrl + O`:                     Open new file  
 `Ctrl + N`:                     New file  
-`Ctrl + S`:                     Save file                           *[using]*  
-`Ctrl + W`:                     Close current file  
-`Ctrl + Shift + T`:             Reopen closed file  
+`Ctrl + S`:                     Save file  
+`Ctrl + W`:                     Close current file                  :mag:  
+`Ctrl + Shift + T`:             Reopen closed file                  :mag:
 
 
 ### Navigate
@@ -19,24 +19,24 @@
 
 
 ### Indentation
-`Ctrl + ] or [`:                Indent or unindent line             *[learn]*  
-`F12`:                          Indent file                         *[conflict]*  
+`Ctrl + ] or [`:                Indent or unindent line             :mag:  
+`F12`:                          Indent file                         :warning:  
 `Edit > Line > Reindent`
 
 
 ### Line editing
-`Ctrl + Shift + Up`:            Swap line up                        *[using]*  
-`Ctrl + Shift + Down`:          Swap line down                      *[using]*  
-`Ctrl + Shift + K`:             Delete line                         *[using]*  
-`Ctrl + Shift + D`:             Duplicate line
+`Ctrl + Shift + Up`:            Swap line up  
+`Ctrl + Shift + Down`:          Swap line down  
+`Ctrl + Shift + K`:             Delete line  
+`Ctrl + Shift + D`:             Duplicate line  
 
 
 ### Code editing
-`Ctrl + M`:                     Jump to matching bracket            *[learn]*  
+`Ctrl + M`:                     Jump to matching bracket            :mag:  
 
 #### Comment
-`Ctrl + /`:                     Toggle comment                      *[learn]*  
-`Ctrl + Shift + /`:             Toggle block comment                *[learn]*  
+`Ctrl + /`:                     Toggle comment                      :mag:  
+`Ctrl + Shift + /`:             Toggle block comment                :mag:  
 
 #### Tag
 `Alt + .`:                      Close tag  
@@ -54,7 +54,7 @@
 `Edit > Convert Case > Title Case`: 
 
 #### Clipboard
-`Ctrl + Shift + V`:             Paste and indent                    *[changed to Ctrl + V]*  
+`Ctrl + Shift + V`:             Paste and indent                    :left_right_arrow: `Ctrl + V`  
 
 
 ### Layout
@@ -74,23 +74,23 @@
 
 
 ### Find and Replace
-`Ctrl + F`:                     Find                                *[using]*  
-`Enter or F3`:                  Next find                           *[learn]*  
-`Shift + Enter or Shift + F3`:  Previous find                       *[learn]*  
-`Ctrl + E`:                     Use selection for find              *[learn]*  
+`Ctrl + F`:                     Find  
+`Enter or F3`:                  Next find                           :mag:  
+`Shift + Enter or Shift + F3`:  Previous find                       :mag:  
+`Ctrl + E`:                     Use selection for find              :mag:  
 
 `Ctrl + I`:                     Incremental find  
 
-`Ctrl + H`:                     Find and replace                    *[using]*  
+`Ctrl + H`:                     Find and replace  
 `Ctrl + Shift + H`:             Replace next  
 `Ctrl + Shift + E`:             Use selection for replace  
 
-`Ctrl + Shift + F`:             Find in files                       *[learn]*
+`Ctrl + Shift + F`:             Find in files                       :mag:
 `F4`:                           Next result  
 `Shift + F4`:                   Previous result  
 > Tip: turn off "Use Buffer" to see results in botton panel  
 
-`Ctrl + F3`:                    Quick find                          *[learn]*  
+`Ctrl + F3`:                    Quick find                          :mag:  
 
 
 ### Preferences
@@ -99,15 +99,15 @@
 
 
 ### Power Editing
-`Ctrl + Left or Right`:         Move one word at a time             *[using]*  
-`Ctrl + Shift + Left or Right`: Select one word at a time           *[using]*  
+`Ctrl + Left or Right`:         Move one word at a time  
+`Ctrl + Shift + Left or Right`: Select one word at a time  
 
-`Ctrl + D`:                     Select current word                 *[learn]*  
-`Ctrl + L`:                     Select current line                 *[learn]*  
+`Ctrl + D`:                     Select current word                 :mag:  
+`Ctrl + L`:                     Select current line                 :mag:  
 `Selection > Expand Selection to Paragraph`: 
 
-`Ctrl + Shift + A`:             Expand selection to tag             *[learn]*  
-`Ctrl + Shift + M`:             Expand selection to bracket         *[learn]*  
+`Ctrl + Shift + A`:             Expand selection to tag             :mag:  
+`Ctrl + Shift + M`:             Expand selection to bracket         :mag:  
 `Ctrl + Shift + J`:             Expand selection to indentation  
 `Ctrl + Shift + Space`:         Expand selection to scope  
 
@@ -118,35 +118,35 @@
 `Ctrl + Shift + F2`:            Clear bookmarks  
 
 #### Go to anything
-`Ctrl + P`:                     Go to anything                      *[learn]*  
+`Ctrl + P`:                     Go to anything                      :mag:  
   `#`:                          Fuzzy search  
   `:`:                          Line number  
   `@`:                          Symbol  
 
 #### Symbol Browsing
 `Ctrl + R`:                     Go to symbol  
-`Ctrl + Shift + R`:             Go to symbol in project             *[not working]*  
-`F12`:                          Go to definition                    *[conflict: replace with Ctrl + Alt + Down ?]*  
+`Ctrl + Shift + R`:             Go to symbol in project             :no_entry_sign:  
+`F12`:                          Go to definition                    :warning: *replace with `Ctrl + Alt + Down`?*  
 `Alt + -`:                      Jump back  
 
 #### Command
-`Ctrl + Shift + P`:             Command palette                     *[learn]*  
+`Ctrl + Shift + P`:             Command palette                     :mag:  
 * Access commands quickly  
 * Quick way to learn key bindings for commands  
 * Switch sintax mode  
 
 #### Multiple selection
-`Ctrl + Click`:                 Add additional cursors              *[using]*  
-`Ctrl + Alt + Up`:              Add previous line                   *[using]*  
-`Ctrl + Alt + Down`:            Add next line                       *[using]*  
+`Ctrl + Click`:                 Add additional cursors  
+`Ctrl + Alt + Up`:              Add previous line  
+`Ctrl + Alt + Down`:            Add next line  
 `Shift + R-Click Drag`:         Vertical select  
 `Ctrl + Shift + L`:             Split into lines  
 > Tip: first select multiple lines and then use  
 
-`Alt + F3`:                     Quick find all                      *[learn]*  
-`Ctrl + D`:                     Quick add next                      *[learn]*  
-`Ctrl + K, Ctrl + D`:           Quick skip next                     *[learn]*  
-`Ctrl + U`:                     Undo selection                      *[learn]*  
+`Alt + F3`:                     Quick find all                      :mag:  
+`Ctrl + D`:                     Quick add next                      :mag:  
+`Ctrl + K, Ctrl + D`:           Quick skip next                     :mag:  
+`Ctrl + U`:                     Undo selection                      :mag:  
 
 ##### Use case  
 * Select tag: `Ctrl + D`: 
@@ -207,18 +207,23 @@ Abbreviation that expands into full html code
 
 
 ## Conflicting Key Bindings
-* `F12`: 
-** `Goto > Goto definition...`
-** `Edit > Line > Reindent`
+* `F12`:
+  * `Goto > Goto definition...`
+  * `Edit > Line > Reindent`
 
 
 ## Modified Key Bindings
-* `Edit > Paste`: `Ctrl + V` -> `Ctrl + Shift + V`
-* `Edit > Paste and Indent`: `Ctrl + Shift + V` -> `Ctrl + V`
+* `Edit > Paste`: `Ctrl + V` → `Ctrl + Shift + V`
+* `Edit > Paste and Indent`: `Ctrl + Shift + V` → `Ctrl + V`
 
 
-## Notes
-* *[conflict]*: Fix in Preferences > Key Bindings  
+## Legend
+| Emoji              | Description                                    |
+|--------------------|------------------------------------------------|
+| :warning:          | Conflict (fix in `Preferences > Key Bindings`) |
+| :mag:              | Learn                                          |
+| :left_right_arrow: | Modified                                       |
+| :no_entry_sign:    | Not working                                    |
 
 
 ## References
