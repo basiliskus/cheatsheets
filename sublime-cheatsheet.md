@@ -200,6 +200,23 @@ Abbreviation that expands into full html code
 * SublimeCodeIntel  
 
 
+## Missing Key Bindings
+* `Edit > Line > Reindent`
+* `Edit > Convert Case > Title Case`
+* `Selection > Expand Selection to Paragraph`
+
+
+## Conflicting Key Bindings
+* `F12`: 
+** `Goto > Goto definition...`
+** `Edit > Line > Reindent`
+
+
+## Modified Key Bindings
+* `Edit > Paste`: `Ctrl + V` -> `Ctrl + Shift + V`
+* `Edit > Paste and Indent`: `Ctrl + Shift + V` -> `Ctrl + V`
+
+
 ## References
 * https://www.linkedin.com/learning/learning-sublime-text-3
 
