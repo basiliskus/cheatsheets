@@ -331,12 +331,17 @@ To see a list of every image we support, check out the [Emoji Cheat Sheet](https
 ```
 
 
+## Glossary
+* **GSM**: GitHub Flavored Markdown
+
+
+## Resources
+* [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables)
+* [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+
 ## References
 * https://guides.github.com/features/mastering-markdown/
 * https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 * https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 * https://www.markdownguide.org/cheat-sheet/
-
-
-## Glossary
-* GSM: GitHub Flavored Markdown
