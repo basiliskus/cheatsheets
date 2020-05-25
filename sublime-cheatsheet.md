@@ -3,74 +3,74 @@
 ## Key Bindings
 
 ### Files
-`Ctrl + O`:               Open new file  
-`Ctrl + N`:               New file  
-`Ctrl + S`:               Save file                                 *[using]*  
-`Ctrl + W`:               Close current file  
-`Ctrl + Shift + T`:       Reopen closed file  
+`Ctrl + O`:                     Open new file  
+`Ctrl + N`:                     New file  
+`Ctrl + S`:                     Save file                           *[using]*  
+`Ctrl + W`:                     Close current file  
+`Ctrl + Shift + T`:             Reopen closed file  
 
 
 ### Navigate
-`Alt + 1-9`:               Switch file  
-`Ctrl + PgUp or PgDn`:     Switch file next or previous  
-`Ctrl + Tab`:              Cycle forward open tabs  
-`Ctrl + Shift + Tab`:      Cycle backward open tabs  
-`Ctrl + P`:                Palette of open files  
+`Alt + 1-9`:                    Switch file  
+`Ctrl + PgUp or PgDn`:          Switch file next or previous  
+`Ctrl + Tab`:                   Cycle forward open tabs  
+`Ctrl + Shift + Tab`:           Cycle backward open tabs  
+`Ctrl + P`:                     Palette of open files  
 
 
 ### Indentation
-`Ctrl + ] or [`:          Indent or unindent line                   *[learn]*  
-`F12`:                    Indent file                               *[conflict]*  
+`Ctrl + ] or [`:                Indent or unindent line             *[learn]*  
+`F12`:                          Indent file                         *[conflict]*  
 `Edit > Line > Reindent`
 
 
 ### Line editing
-`Ctrl + Shift + Up`:      Swap line up                              *[using]*  
-`Ctrl + Shift + Down`:    Swap line down                            *[using]*  
-`Ctrl + Shift + K`:       Delete line                               *[using]*  
-`Ctrl + Shift + D`:       Duplicate line
+`Ctrl + Shift + Up`:            Swap line up                        *[using]*  
+`Ctrl + Shift + Down`:          Swap line down                      *[using]*  
+`Ctrl + Shift + K`:             Delete line                         *[using]*  
+`Ctrl + Shift + D`:             Duplicate line
 
 
 ### Code editing
-`Ctrl + M`:               Jump to matching bracket                  *[learn]*  
+`Ctrl + M`:                     Jump to matching bracket            *[learn]*  
 
 #### Comment
-`Ctrl + /`:               Toggle comment                            *[learn]*  
-`Ctrl + Shift + /`:       Toggle block comment                      *[learn]*  
+`Ctrl + /`:                     Toggle comment                      *[learn]*  
+`Ctrl + Shift + /`:             Toggle block comment                *[learn]*  
 
 #### Tag
-`Alt + .`:                Close tag  
-`Ctrl + Shift + A`:       Expand selection to tag  
-`Alt + Shift + W`:        Wrap selection with tag  
+`Alt + .`:                      Close tag  
+`Ctrl + Shift + A`:             Expand selection to tag  
+`Alt + Shift + W`:              Wrap selection with tag  
 
 #### Code Folding
-`Ctrl + Shift + [`:       Fold  
-`Ctrl + Shift + ]`:       Unfold  
-`Ctrl + K, Ctrl + 1-9`:   Fold levels  
+`Ctrl + Shift + [`:             Fold  
+`Ctrl + Shift + ]`:             Unfold  
+`Ctrl + K, Ctrl + 1-9`:         Fold levels  
 
 #### Convert Case
-`Ctrl + K, Ctrl + U`:     Upper case  
-`Ctrl + K, Ctrl + L`:     Lower case  
+`Ctrl + K, Ctrl + U`:           Upper case  
+`Ctrl + K, Ctrl + L`:           Lower case  
 `Edit > Convert Case > Title Case`: 
 
 #### Clipboard
-`Ctrl + Shift + V`:       Paste and indent                          *[changed to Ctrl + V]*  
+`Ctrl + Shift + V`:             Paste and indent                    *[changed to Ctrl + V]*  
 
 
 ### Layout
 
 #### Tab groups
-`Alt + Shift + 1`:        Single  
-`Alt + Shift + 2`:        Two columns  
-`Alt + Shift + 4`:        Four grid  
-`Ctrl + 1-9`:             Navigate tab groups  
-`Ctrl + K, Ctrl + Up`:    Move file to new group  
-`Ctrl + K, Ctrl + Down`:  Close group  
+`Alt + Shift + 1`:              Single  
+`Alt + Shift + 2`:              Two columns  
+`Alt + Shift + 4`:              Four grid  
+`Ctrl + 1-9`:                   Navigate tab groups  
+`Ctrl + K, Ctrl + Up`:          Move file to new group  
+`Ctrl + K, Ctrl + Down`:        Close group  
 `File > New view into file`: 
 
 
 ### Project
-`Ctrl + Shift + P`:       Quick switch project                      *[missing]*  
+`Ctrl + Shift + P`:             Quick switch project  
 
 
 ### Find and Replace
@@ -94,8 +94,8 @@
 
 
 ### Preferences
-`Ctrl + =`:             Larger font  
-`Ctrl + -`:             Smaller font  
+`Ctrl + =`:                     Larger font  
+`Ctrl + -`:                     Smaller font  
 
 
 ### Power Editing
@@ -145,7 +145,7 @@
 
 `Alt + F3`:                     Quick find all                      *[learn]*  
 `Ctrl + D`:                     Quick add next                      *[learn]*  
-`Ctrl + K, CTrl + D`:           Quick skip next                     *[learn]*  
+`Ctrl + K, Ctrl + D`:           Quick skip next                     *[learn]*  
 `Ctrl + U`:                     Undo selection                      *[learn]*  
 
 ##### Use case  
@@ -166,21 +166,21 @@
 ### Automation
 
 #### Autocomplete
-`Ctrl + Spacebar`:            Auto complete list  
-`Tab`:                        Auto complete commit  
+`Ctrl + Spacebar`:              Auto complete list  
+`Tab`:                          Auto complete commit  
 
 #### Snippets
-`Ctrl + Shift + P + "snip"`:  Displays available snippets  
+`Ctrl + Shift + P + "snip"`:    Displays available snippets  
 
 #### Macros
-`Ctrl + Q`:                   Start/end macro recording  
-`Ctrl + Shift + Q`:           Playback macro  
+`Ctrl + Q`:                     Start/end macro recording  
+`Ctrl + Shift + Q`:             Playback macro  
 
 
 ### Essential Packages
 
 #### ColorPicker
-`Ctrl + Shift + C`:           Open system color picker  
+`Ctrl + Shift + C`:             Open system color picker  
 
 #### SideBarEnhacements
 * Open in browser (add key?)  
