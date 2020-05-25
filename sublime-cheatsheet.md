@@ -6,8 +6,8 @@
 `Ctrl + O`:                     Open new file  
 `Ctrl + N`:                     New file  
 `Ctrl + S`:                     Save file  
-`Ctrl + W`:                     Close current file                  :mag:  
-`Ctrl + Shift + T`:             Reopen closed file                  :mag:
+`Ctrl + W`:                     Close current file                  :hammer:  
+`Ctrl + Shift + T`:             Reopen closed file                  :hammer:
 
 
 ### Navigate
@@ -19,7 +19,7 @@
 
 
 ### Indentation
-`Ctrl + ] or [`:                Indent or unindent line             :mag:  
+`Ctrl + ] or [`:                Indent or unindent line             :hammer:  
 `F12`:                          Indent file                         :warning:  
 `Edit > Line > Reindent`
 
@@ -32,11 +32,11 @@
 
 
 ### Code editing
-`Ctrl + M`:                     Jump to matching bracket            :mag:  
+`Ctrl + M`:                     Jump to matching bracket            :hammer:  
 
 #### Comment
-`Ctrl + /`:                     Toggle comment                      :mag:  
-`Ctrl + Shift + /`:             Toggle block comment                :mag:  
+`Ctrl + /`:                     Toggle comment                      :hammer:  
+`Ctrl + Shift + /`:             Toggle block comment                :hammer:  
 
 #### Tag
 `Alt + .`:                      Close tag  
@@ -76,9 +76,9 @@
 
 ### Find and Replace
 `Ctrl + F`:                     Find  
-`Enter or F3`:                  Next find                           :mag:  
-`Shift + Enter or Shift + F3`:  Previous find                       :mag:  
-`Ctrl + E`:                     Use selection for find              :mag:  
+`Enter or F3`:                  Next find                           :hammer:  
+`Shift + Enter or Shift + F3`:  Previous find                       :hammer:  
+`Ctrl + E`:                     Use selection for find              :hammer:  
 
 `Ctrl + I`:                     Incremental find  
 
@@ -86,12 +86,12 @@
 `Ctrl + Shift + H`:             Replace next  
 `Ctrl + Shift + E`:             Use selection for replace  
 
-`Ctrl + Shift + F`:             Find in files                       :mag:
+`Ctrl + Shift + F`:             Find in files                       :hammer:
 `F4`:                           Next result  
 `Shift + F4`:                   Previous result  
 > Tip: turn off "Use Buffer" to see results in botton panel  
 
-`Ctrl + F3`:                    Quick find                          :mag:  
+`Ctrl + F3`:                    Quick find                          :hammer:  
 
 
 ### Preferences
@@ -103,12 +103,12 @@
 `Ctrl + Left or Right`:         Move one word at a time  
 `Ctrl + Shift + Left or Right`: Select one word at a time  
 
-`Ctrl + D`:                     Select current word                 :mag:  
-`Ctrl + L`:                     Select current line                 :mag:  
+`Ctrl + D`:                     Select current word                 :hammer:  
+`Ctrl + L`:                     Select current line                 :hammer:  
 `Selection > Expand Selection to Paragraph`: 
 
-`Ctrl + Shift + A`:             Expand selection to tag             :mag:  
-`Ctrl + Shift + M`:             Expand selection to bracket         :mag:  
+`Ctrl + Shift + A`:             Expand selection to tag             :hammer:  
+`Ctrl + Shift + M`:             Expand selection to bracket         :hammer:  
 `Ctrl + Shift + J`:             Expand selection to indentation  
 `Ctrl + Shift + Space`:         Expand selection to scope  
 
@@ -119,7 +119,7 @@
 `Ctrl + Shift + F2`:            Clear bookmarks  
 
 #### Go to anything
-`Ctrl + P`:                     Go to anything                      :mag:  
+`Ctrl + P`:                     Go to anything                      :hammer:  
   `#`:                          Fuzzy search  
   `:`:                          Line number  
   `@`:                          Symbol  
@@ -131,7 +131,7 @@
 `Alt + -`:                      Jump back  
 
 #### Command
-`Ctrl + Shift + P`:             Command palette                     :mag:  
+`Ctrl + Shift + P`:             Command palette                     :hammer:  
 * Access commands quickly  
 * Quick way to learn key bindings for commands  
 * Switch sintax mode  
@@ -144,10 +144,10 @@
 `Ctrl + Shift + L`:             Split into lines  
 > Tip: first select multiple lines and then use  
 
-`Alt + F3`:                     Quick find all                      :mag:  
-`Ctrl + D`:                     Quick add next                      :mag:  
-`Ctrl + K, Ctrl + D`:           Quick skip next                     :mag:  
-`Ctrl + U`:                     Undo selection                      :mag:  
+`Alt + F3`:                     Quick find all                      :hammer:  
+`Ctrl + D`:                     Quick add next                      :hammer:  
+`Ctrl + K, Ctrl + D`:           Quick skip next                     :hammer:  
+`Ctrl + U`:                     Undo selection                      :hammer:  
 
 ##### Use case  
 * Select tag: `Ctrl + D`: 
@@ -222,7 +222,7 @@ Abbreviation that expands into full html code
 | Emoji              | Description                                    |
 |--------------------|------------------------------------------------|
 | :warning:          | Conflict (fix in `Preferences > Key Bindings`) |
-| :mag:              | Learn                                          |
+| :hammer:           | Drill                                          |
 | :left_right_arrow: | Modified                                       |
 | :no_entry_sign:    | Not working                                    |
 
