@@ -217,9 +217,9 @@ Abbreviation that expands into full html code
 * `Edit > Paste and Indent`: `Ctrl + Shift + V` -> `Ctrl + V`
 
 
-## References
-* https://www.linkedin.com/learning/learning-sublime-text-3
-
-
 ## Notes
 * *[conflict]*: Fix in Preferences > Key Bindings  
+
+
+## References
+* https://www.linkedin.com/learning/learning-sublime-text-3
