@@ -6,4 +6,5 @@
 * Markdown
 
 ## ToDo
-* Command Line
+* Command line
+* Regular expressions
