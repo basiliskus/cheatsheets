@@ -54,7 +54,8 @@
 `Edit > Convert Case > Title Case`: 
 
 #### Clipboard
-`Ctrl + Shift + V`:             Paste and indent                    :left_right_arrow: `Ctrl + V`  
+`Ctrl + Shift + V`:             Paste                               :left_right_arrow: `Ctrl + V`  
+`Ctrl + V`:                     Paste and indent                    :left_right_arrow: `Ctrl + Shift + V`  
 
 
 ### Layout
