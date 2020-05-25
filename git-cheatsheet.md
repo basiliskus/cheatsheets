@@ -1,4 +1,4 @@
-# Github Cheatsheet
+# Git Cheatsheet
 
 ## Commands
 
