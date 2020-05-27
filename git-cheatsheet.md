@@ -291,6 +291,13 @@ Use the imperative, present tense («change», not «changed» or «changes») t
 * **Agree on a Workflow**: Git lets you pick from a lot of different workflows: long-running branches, topic branches, merge or rebase, git-flow… Which one you choose depends on a couple of factors: your project, your overall development and deployment workflows and (maybe most importantly) on your and your teammates‘ personal preferences. However you choose to work, just make sure to agree on a common workflow that everyone follows.
 
 
+## Commit Message Guidelines
+* https://gist.github.com/turbo/efb8d57c145e00dc38907f9526b60f17
+* https://github.com/joelparkerhenderson/git_commit_message
+* https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
+* https://www.conventionalcommits.org/en/v1.0.0/
+
+
 ## Glossary
 
 * **commit**: a Git object, a snapshot of your entire repository compressed into a SHA
