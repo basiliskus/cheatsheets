@@ -71,7 +71,7 @@
 
 
 ### Project
-`Ctrl + Shift + P`:             Quick switch project  
+`Ctrl + Alt + P`:               Quick switch project  
 
 
 ### Find and Replace
