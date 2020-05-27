@@ -48,6 +48,7 @@
 #### Code Folding
 `Ctrl + Shift + [`:             Fold  
 `Ctrl + Shift + ]`:             Unfold  
+`Ctrl + K, Ctrl J`:             Unfold all  
 `Ctrl + K, Ctrl + 1-9`:         Fold levels  
 
 #### Convert Case
@@ -200,7 +201,16 @@ Abbreviation that expands into full html code
 `.`:                            Add 'class' property to tag  
 
 #### Open URL
-`Ctrl + Alt + U`                Open url, file, folder or search for word
+`Ctrl + Alt + U`                Open url, file, folder or search for word   :hammer:  
+
+#### PlainTasks
+`Ctrl + Enter`                  Add new task  
+`Ctrl + D`                      Mark task as done (toggle)  
+`Ctrl + Shift + A`              Archive task  
+`C + Tab`                       Tag task priority as Critical  
+`H + Tab`                       Tag task priority as High  
+`L + Tab`                       Tag task priority as Low  
+`T + Tab`                       Tag task priority as Today  
 
 #### Other Packages to Check
 * SublimeCodeIntel  
