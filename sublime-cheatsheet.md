@@ -16,6 +16,8 @@
 `Ctrl + Tab`:                   Cycle forward open tabs  
 `Ctrl + Shift + Tab`:           Cycle backward open tabs  
 `Ctrl + P`:                     Palette of open files  
+`Ctrl + 0`:                     Focus on sidebar  
+`Esc`:                          Focus back to edit area when focus on sidebar  
 
 
 ### Indentation
@@ -197,6 +199,9 @@ Abbreviation that expands into full html code
 `#`:                            Add 'id' property to tag  
 `.`:                            Add 'class' property to tag  
 
+#### Open URL
+`Ctrl + Alt + U`                Open url, file, folder or search for word
+
 #### Other Packages to Check
 * SublimeCodeIntel  
 
@@ -229,3 +234,4 @@ Abbreviation that expands into full html code
 
 ## References
 * https://www.linkedin.com/learning/learning-sublime-text-3
+* https://gist.github.com/mrliptontea/4c793ebdf72ed145bcbf
