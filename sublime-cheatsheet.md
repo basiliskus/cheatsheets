@@ -4,47 +4,51 @@
 
 * [Key Bindings](#key-bindings)
   * [Files](#files)
+  * [Quick Access](#quick-access)
   * [Editing & Selection](#editing--selection)
-  * [Line editing](#line-editing)
-  * [Indentation](#indentation)
-  * [Code navigation](#code-navigation)
-  * [Code snippets](#code-snippets)
-    * [Code Folding](#code-folding)
-    * [Comment](#comment)
-    * [Tag](#tag)
+    * [Line](#line)
+    * [Multiple line](#multiple-line)
+    * [Word](#word)
     * [Convert Case](#convert-case)
     * [Clipboard](#clipboard)
-  * [Navigation](#navigation)
-    * [Goto](#goto)
-    * [Hyperlinks](#hyperlinks)
-  * [Layout](#layout)
-    * [Tab groups](#tab-groups)
-  * [Project](#project)
-  * [Find and Replace](#find-and-replace)
-  * [Preferences](#preferences)
-  * [Power Editing](#power-editing)
     * [Bookmarks](#bookmarks)
-    * [Go to anything](#go-to-anything)
-    * [Symbol Browsing](#symbol-browsing)
-    * [Command](#command)
-    * [Multiple selection](#multiple-selection)
-      * [Use case](#use-case)
+  * [Code](#code)
+    * [Goto](#goto)
+    * [Expand Selection](#expand-selection)
+    * [Indentation](#indentation)
+    * [Snippets](#snippets)
+    * [Folding](#folding)
+    * [Comment](#comment)
+    * [Tag](#tag)
+    * [Hyperlinks](#hyperlinks)
+  * [File Navigation](#file-navigation)
+    * [Goto](#goto-1)
+    * [Tab groups](#tab-groups)
+  * [Find and Replace](#find-and-replace)
+    * [Quick Find](#quick-find)
+  * [View](#view)
+    * [Font Size](#font-size)
+    * [Layout](#layout)
+  * [Console](#console)
+    * [Useful commands](#useful-commands)
   * [Automation](#automation)
     * [Autocomplete](#autocomplete)
-    * [Snippets](#snippets)
+    * [Snippets](#snippets-1)
     * [Macros](#macros)
   * [Utilities](#utilities)
   * [Context Tools](#context-tools)
     * [PlainTasks](#plaintasks)
-  * [Installed Packages](#installed-packages)
-    * [AdvancedNewFile](#advancednewfile)
-    * [ColorPicker](#colorpicker)
-    * [Emmet](#emmet)
-    * [HyperlinkHelper](#hyperlinkhelper)
-    * [Open URL](#open-url)
-    * [PlainTasks](#plaintasks-1)
-    * [SideBarEnhacements](#sidebarenhacements)
-  * [Other Packages](#other-packages)
+  * [Examples](#examples)
+      * [Copy/paste text inside html tags, edit and copy/paste back](#copypaste-text-inside-html-tags-edit-and-copypaste-back)
+* [Installed Packages](#installed-packages)
+  * [AdvancedNewFile](#advancednewfile)
+  * [ColorPicker](#colorpicker)
+  * [Emmet](#emmet)
+  * [HyperlinkHelper](#hyperlinkhelper)
+  * [Open URL](#open-url)
+  * [PlainTasks](#plaintasks-1)
+  * [SideBarEnhacements](#sidebarenhacements)
+* [Other Packages](#other-packages)
 * [Missing Key Bindings](#missing-key-bindings)
 * [Conflicting Key Bindings](#conflicting-key-bindings)
 * [Modified Key Bindings](#modified-key-bindings)
@@ -66,29 +70,85 @@
 `File > New View Into File`     Open current file again  
 
 
+### Quick Access
+`Ctrl + P`:                     Goto anything                      :hammer:  
+  `#`:                          Fuzzy search  
+  `:`:                          Line number  
+  `@`:                          Symbol  
+`Ctrl + Alt + P`:               Quick switch project  
+`Ctrl + Shift + P`:             Command palette                     :hammer:  
+* Access commands quickly  
+* Quick way to learn key bindings for commands  
+* Switch sintax mode  
+
+
 ### Editing & Selection
 
-### Line editing
+#### Line
 `Ctrl + Shift + Up`:            Swap line up  
 `Ctrl + Shift + Down`:          Swap line down  
 `Ctrl + Shift + K`:             Delete line  
 `Ctrl + Shift + D`:             Duplicate line  
 
-### Indentation
+#### Multiple line
+`Ctrl + Click`:                 Add additional cursors  
+`Ctrl + Alt + Up`:              Add previous line  
+`Ctrl + Alt + Down`:            Add next line  
+`Shift + R-Click Drag`:         Vertical select  
+`Ctrl + Shift + L`:             Split into lines  
+> Tip: first select multiple lines and then use  
+
+#### Word
+`Ctrl + Left or Right`:         Move one word at a time  
+`Ctrl + Shift + Left or Right`: Select one word at a time  
+`Ctrl + D`:                     Select current word                 :hammer:  
+`Ctrl + L`:                     Select current line                 :hammer:  
+`Selection > Expand Selection to Paragraph`: 
+
+#### Convert Case
+`Ctrl + K, Ctrl + U`:           Upper case  
+`Ctrl + K, Ctrl + L`:           Lower case  
+`Edit > Convert Case > Title Case`: 
+
+#### Clipboard
+`Ctrl + Shift + V`:             Paste                               :left_right_arrow: `Ctrl + V`  
+`Ctrl + V`:                     Paste and indent                    :left_right_arrow: `Ctrl + Shift + V`  
+
+#### Bookmarks
+`Ctrl + F2`:                    Toggle bookmark  
+`F2`:                           Next bookmark  
+`Shift + F2`:                   Prev bookmark  
+`Ctrl + Shift + F2`:            Clear bookmarks  
+
+
+### Code
+
+#### Goto
+`Ctrl + M`:                     Jump to matching bracket            :hammer:  
+`Ctrl + Alt + Left or Right`:   Jump to next/prev place                             ([Emmet](#emmet))  
+`Ctrl + Alt + , or .`:          Selects next/prev tag                               ([Emmet](#emmet))  
+`Ctrl + G`:                     Go to line  
+`Ctrl + R`:                     Go to symbol  
+`Ctrl + Shift + R`:             Go to symbol in project             :no_entry_sign:  
+`F12`:                          Go to definition                    :warning: *replace with `Ctrl + Alt + Down`?*  
+`Alt + -`:                      Jump back  
+
+#### Expand Selection
+`Ctrl + Shift + A`:             Expand selection to tag             :hammer:  
+`Ctrl + Shift + M`:             Expand selection to bracket         :hammer:  
+`Ctrl + Shift + J`:             Expand selection to indentation  
+`Ctrl + Shift + Space`:         Expand selection to scope  
+
+#### Indentation
 `Ctrl + ] or [`:                Indent or unindent line             :hammer:  
 `F12`:                          Indent file                         :warning:  
 `Edit > Line > Reindent`  
 
-### Code navigation
-`Ctrl + M`:                     Jump to matching bracket            :hammer:  
-`Ctrl + Alt + Left or Right`:   Jump to next/prev place                             ([Emmet](#emmet))  
-`Ctrl + Alt + , or .`:          Selects next/prev tag                               ([Emmet](#emmet))  
-
-### Code snippets
+#### Snippets
 `#`:                            Add 'id' property to tag                            ([Emmet](#emmet))  
 `.`:                            Add 'class' property to tag                         ([Emmet](#emmet))  
 
-#### Code Folding
+#### Folding
 `Ctrl + Shift + [`:             Fold  
 `Ctrl + Shift + ]`:             Unfold  
 `Ctrl + K, Ctrl J`:             Unfold all  
@@ -103,20 +163,15 @@
 `Ctrl + Shift + A`:             Expand selection to tag  
 `Alt + Shift + W`:              Wrap selection with tag  
 
-#### Convert Case
-`Ctrl + K, Ctrl + U`:           Upper case  
-`Ctrl + K, Ctrl + L`:           Lower case  
-`Edit > Convert Case > Title Case`: 
-
-#### Clipboard
-`Ctrl + Shift + V`:             Paste                               :left_right_arrow: `Ctrl + V`  
-`Ctrl + V`:                     Paste and indent                    :left_right_arrow: `Ctrl + Shift + V`  
+#### Hyperlinks
+`Ctrl + Alt + U`                Open url, file, folder or search for word   :hammer:  ([Open URL](#open-url))  
+`Ctrl + Alt + L`                Wrao word / selection as link                         ([Hyperlink Helper](#hyperlink-helper))  
+`Ctrl + Alt + Shift + L`        Lookup with Google & link                             ([Hyperlink Helper](#hyperlink-helper))  
 
 
-### Navigation
+### File Navigation
 
 #### Goto
-
 `Alt + 1-9`:                    Switch file  
 `Ctrl + PgUp or PgDn`:          Switch file next or previous  
 `Ctrl + Tab`:                   Cycle forward open tabs  
@@ -124,25 +179,12 @@
 `Ctrl + P`:                     Palette of open files  
 `Ctrl + 0`:                     Focus on sidebar  
 `Esc`:                          Focus back to edit area when focus on sidebar  
-
-#### Hyperlinks
-`Ctrl + Alt + U`                Open url, file, folder or search for word   :hammer:  ([Open URL](#open-url))  
-`Ctrl + Alt + L`                Wrao word / selection as link                         ([Hyperlink Helper](#hyperlink-helper))  
-`Ctrl + Alt + Shift + L`        Lookup with Google & link                             ([Hyperlink Helper](#hyperlink-helper))  
-
-
-### Layout
+`Ctrl + Alt + S`                Reveal in sidebar  
 
 #### Tab groups
-`Alt + Shift + 1`:              Single  
-`Alt + Shift + 2`:              Two columns  
-`Alt + Shift + 4`:              Four grid  
 `Ctrl + 1-9`:                   Navigate tab groups  
 `Ctrl + K, Ctrl + Up`:          Move file to new group  
 `Ctrl + K, Ctrl + Down`:        Close group  
-
-### Project
-`Ctrl + Alt + P`:               Quick switch project  
 
 
 ### Find and Replace
@@ -162,77 +204,32 @@
 `Shift + F4`:                   Previous result  
 > Tip: turn off "Use Buffer" to see results in botton panel  
 
+#### Quick Find
 `Ctrl + F3`:                    Quick find                          :hammer:  
-
-
-### Preferences
-`Ctrl + =`:                     Larger font  
-`Ctrl + -`:                     Smaller font  
-
-
-### Power Editing
-`Ctrl + Left or Right`:         Move one word at a time  
-`Ctrl + Shift + Left or Right`: Select one word at a time  
-
-`Ctrl + D`:                     Select current word                 :hammer:  
-`Ctrl + L`:                     Select current line                 :hammer:  
-`Selection > Expand Selection to Paragraph`: 
-
-`Ctrl + Shift + A`:             Expand selection to tag             :hammer:  
-`Ctrl + Shift + M`:             Expand selection to bracket         :hammer:  
-`Ctrl + Shift + J`:             Expand selection to indentation  
-`Ctrl + Shift + Space`:         Expand selection to scope  
-
-#### Bookmarks
-`Ctrl + F2`:                    Toggle bookmark  
-`F2`:                           Next bookmark  
-`Shift + F2`:                   Prev bookmark  
-`Ctrl + Shift + F2`:            Clear bookmarks  
-
-#### Go to anything
-`Ctrl + P`:                     Go to anything                      :hammer:  
-  `#`:                          Fuzzy search  
-  `:`:                          Line number  
-  `@`:                          Symbol  
-
-#### Symbol Browsing
-`Ctrl + R`:                     Go to symbol  
-`Ctrl + Shift + R`:             Go to symbol in project             :no_entry_sign:  
-`F12`:                          Go to definition                    :warning: *replace with `Ctrl + Alt + Down`?*  
-`Alt + -`:                      Jump back  
-
-#### Command
-`Ctrl + Shift + P`:             Command palette                     :hammer:  
-* Access commands quickly  
-* Quick way to learn key bindings for commands  
-* Switch sintax mode  
-
-#### Multiple selection
-`Ctrl + Click`:                 Add additional cursors  
-`Ctrl + Alt + Up`:              Add previous line  
-`Ctrl + Alt + Down`:            Add next line  
-`Shift + R-Click Drag`:         Vertical select  
-`Ctrl + Shift + L`:             Split into lines  
-> Tip: first select multiple lines and then use  
-
 `Alt + F3`:                     Quick find all                      :hammer:  
 `Ctrl + D`:                     Quick add next                      :hammer:  
 `Ctrl + K, Ctrl + D`:           Quick skip next                     :hammer:  
 `Ctrl + U`:                     Undo selection                      :hammer:  
 
-##### Use case  
-* Select tag: `Ctrl + D`
-* Move right: `Ctrl + Right`
-* Expand tag selection: `Ctrl + Shift + A`
-* Copy: `Ctrl + C`
-* New file: `Ctrl + N`
-* Paste: `Ctrl + V`
-* Edit text
-* Copy all: `Ctrl + A`
-* Break selection into lines: `Ctrl + Shift + L`
-* Copy multiple selection: `Ctrl + C`
-* Go back to prev file:  
-* Paste into selection: `Ctrl + V`
+
+### View
+
+#### Font Size
+`Ctrl + =`:                     Larger font  
+`Ctrl + -`:                     Smaller font  
+
+#### Layout
+`Alt + Shift + 1`:              Single  
+`Alt + Shift + 2`:              Two columns  
+`Alt + Shift + 4`:              Four grid  
+
+
+### Console
+`Ctrl + '`             Show Console
+
+#### Useful commands
+Show command actions
+`sublime.log_commands(True)` 
 
 
 ### Automation
@@ -266,38 +263,56 @@
 `T + Tab`                       Tag task priority as Today  
 
 
-### Installed Packages
+### Examples
 
-#### AdvancedNewFile
+##### Copy/paste text inside html tags, edit and copy/paste back  
+* Select tag: `Ctrl + D`
+* Move right: `Ctrl + Right`
+* Expand tag selection: `Ctrl + Shift + A`
+* Copy: `Ctrl + C`
+* New file: `Ctrl + N`
+* Paste: `Ctrl + V`
+* Edit text
+* Copy all: `Ctrl + A`
+* Break selection into lines: `Ctrl + Shift + L`
+* Copy multiple selection: `Ctrl + C`
+* Go back to prev file:  
+* Paste into selection: `Ctrl + V`
+
+
+## Installed Packages
+
+### AdvancedNewFile
 File creation plugin
 https://github.com/skuroda/Sublime-AdvancedNewFile  
+https://github.com/skuroda/Sublime-AdvancedNewFile/wiki/Commands  
 
-#### ColorPicker
+### ColorPicker
 Color picker for Sublime Text
 http://weslly.github.io/ColorPicker/  
 
-#### Emmet
+### Emmet
 Improves HTML & CSS workflow
 https://github.com/sergeche/emmet-sublime
 
-#### HyperlinkHelper
+### HyperlinkHelper
 Quickly create hyperlinks from selected text or clipboard contents
 https://github.com/sentience/HyperlinkHelper  
 
-#### Open URL
+### Open URL
 Open URLs, files, folders, or google text under the cursor or in selected text for Sublime Text
 https://github.com/noahcoad/open-url  
 
-#### PlainTasks
+### PlainTasks
 An opinionated todo-list plugin for Sublime Text editor
 https://github.com/aziz/PlainTasks  
 
-#### SideBarEnhacements
+### SideBarEnhacements
 Provides enhancements to the operations on Sidebar of Files and Folders for Sublime Text
 https://github.com/titoBouzout/SideBarEnhancements  
 
 
-### Other Packages
+## Other Packages
 * [SublimeCodeIntel](https://sublimecodeintel.github.io/)
 * [Word Count](https://github.com/titoBouzout/WordCount)
 
