@@ -24,6 +24,7 @@
   * [File Navigation](#file-navigation)
     * [Goto](#goto-1)
     * [Tab groups](#tab-groups)
+      * [Origami](#origami)
   * [Find and Replace](#find-and-replace)
     * [Quick Find](#quick-find)
   * [View](#view)
@@ -48,6 +49,7 @@
   * [Open URL](#open-url)
   * [PlainTasks](#plaintasks-1)
   * [SideBarEnhacements](#sidebarenhacements)
+  * [Origami](#origami-1)
 * [Other Packages](#other-packages)
 * [Missing Key Bindings](#missing-key-bindings)
 * [Conflicting Key Bindings](#conflicting-key-bindings)
@@ -186,6 +188,17 @@
 `Ctrl + K, Ctrl + Up`:          Move file to new group  
 `Ctrl + K, Ctrl + Down`:        Close group  
 
+##### Origami
+`Ctrl + K, Arrow`:             Move focus to the pane in that direction
+`Ctrl + K, Shift + Arrow`:     Move the current file to the destination
+`Ctrl + K, Alt + Arrow`        Clone the current file to the destination
+`Ctrl + K, Ctrl + Arrow`:      Create an adjacent pane
+`Ctrl + K, Ctrl + Shift + Arrow`: Destroy an adjacent pane
+`Ctrl + K, Ctrl + Z`:          Zoom the current pane so it takes up 90% of the screen
+`Ctrl + K, Ctrl + Shift + Z`:  Unzoom (equally space all panes)
+`Ctrl + K, Ctrl + R`:          Adjust the top and bottom separator
+`Ctrl + K, Ctrl + C`:          Adjust the left and right separator
+
 
 ### Find and Replace
 `Ctrl + F`:                     Find  
@@ -310,6 +323,10 @@ https://github.com/aziz/PlainTasks
 ### SideBarEnhacements
 Provides enhancements to the operations on Sidebar of Files and Folders for Sublime Text
 https://github.com/titoBouzout/SideBarEnhancements  
+
+### Origami
+Split the window however you like! Create new panes, delete panes, move and clone views from pane to pane. 
+https://github.com/SublimeText/Origami
 
 
 ## Other Packages
