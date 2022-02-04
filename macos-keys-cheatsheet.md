@@ -89,6 +89,13 @@
 `Shift + Cmd + -` Decrease size  
 `Shift + Cmd + -` Increase size
 
+### Mission Control
+
+`Ctrl + Up` Show Mission Control
+`Ctrl + Down` Show application windows
+`F11` Show desktop
+`Ctrl + Left` Move left a space
+
 ## References
 
 - [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
