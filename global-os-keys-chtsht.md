@@ -15,6 +15,4 @@
 
 - Switch to different window
 
-## Resources
-
 ## References

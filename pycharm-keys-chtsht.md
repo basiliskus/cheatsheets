@@ -134,9 +134,5 @@ Toggle line breakpoint ⌘ F8
 Toggle temporary line breakpoint ⌥ ⇧⌘ F8
 Edit / view breakpoint ⇧⌘ F8
 
-## Glossary
-
-## Resources
-
 ## References
 - [PyCharm keyboard shortcuts](https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html)

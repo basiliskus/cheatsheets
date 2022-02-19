@@ -76,11 +76,6 @@
 ## strftime() and strptime() Format Codes
 https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes
 
-## Glossary
-
-
-## Resources
-
 
 ## References
 * https://www.debuggex.com/cheatsheet/regex/python

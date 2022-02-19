@@ -59,6 +59,6 @@
 |                           |                    |                    |                    |                    |          |
 |                           |                    |                    |                    |                    |          |
 
-## Resources
-
 ## References
+
+- [Sublime Text 3 - Useful Shortcuts (Windows)](https://gist.github.com/mrliptontea/4c793ebdf72ed145bcbf)

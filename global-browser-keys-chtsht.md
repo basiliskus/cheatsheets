@@ -11,6 +11,5 @@
 |                        |                    |                    |          |
 |                        |                    |                    |          |
 
-## Resources
 
 ## References

@@ -51,12 +51,6 @@
 `Win  + Shift + Left/Right`     Move an app or window in the desktop from one monitor to another  
 
 
-## Glossary
-
-
-## Resources
-
-
 ## References
 * https://github.com/janosgyerik/cheatsheets/blob/master/Windows-cheat-sheet.mediawiki
 * https://support.microsoft.com/en-nz/help/12445/windows-keyboard-shortcuts

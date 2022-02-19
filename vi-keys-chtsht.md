@@ -3,10 +3,4 @@
 ## Keybindings
 
 
-## Glossary
-
-
-## Resources
-
-
 ## References

@@ -22,8 +22,5 @@ Use `/J` to create a *hard* link pointing to a directory, also known as a direct
 * **Hard Link**
 
 
-## Resources
-
-
 ## References
 * https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
