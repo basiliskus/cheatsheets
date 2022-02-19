@@ -2,11 +2,19 @@
 
 ## Keybindings
 
+| Action                 | MacOS              | Windows            |          |
+|------------------------|------------------- |--------------------|----------|
+|                        |                    |                    |          |
+|                        |                    |                    |          |
+|                        |                    |                    |          |
+|                        |                    |                    |          |
+|                        |                    |                    |          |
+|                        |                    |                    |          |
 
-## Glossary
+### Common
 
+- Switch to different window
 
 ## Resources
-
 
 ## References
