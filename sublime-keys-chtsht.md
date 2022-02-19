@@ -2,7 +2,7 @@
 
 <!-- MarkdownTOC -->
 
-* [Key Bindings](#key-bindings)
+* [Keybindingss](#keybindings)
   * [Files](#files)
   * [Quick Access](#quick-access)
   * [Editing & Selection](#editing--selection)
@@ -60,7 +60,7 @@
 <!-- /MarkdownTOC -->
 
 
-## Key Bindings
+## Keybindings
 
 ### Files
 `Ctrl + O`:                     Open new file  

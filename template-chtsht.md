@@ -1,6 +1,6 @@
 # Template Cheatsheet
 
-## Key Bindings
+## Keybindings / Commands / Syntax
 
 
 ## Glossary

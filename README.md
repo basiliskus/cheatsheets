@@ -24,8 +24,8 @@
 
 ## Language Syntax
 
-- [Python](python-chtsht.md)
-- [Markdown](markdown-chtsht.md)
+- [Python](python-syntax-chtsht.md)
+- [Markdown](markdown-syntax-chtsht.md)
 
 ## Regex
 

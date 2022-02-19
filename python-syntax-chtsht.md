@@ -1,6 +1,6 @@
 # Python Syntax Cheatsheet
 
-## Commands
+## Syntax
 
 
 ## Glossary
