@@ -1,6 +1,6 @@
-# Firefox Cheatsheet
+# Firefox Keybindings Cheatsheet
 
-## Commands
+##  Keybindings
 
 
 ## Resources

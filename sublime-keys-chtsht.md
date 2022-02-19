@@ -1,4 +1,4 @@
-# Sublime Text 3 Cheatsheet
+# Sublime Text Keybindings Cheatsheet
 
 <!-- MarkdownTOC -->
 

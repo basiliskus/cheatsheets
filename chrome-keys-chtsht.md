@@ -1,6 +1,6 @@
-# Chrome Cheatsheet
+# Chrome Keybindings Cheatsheet
 
-## Commands
+##  Keybindings
 
 ### Tabs
 `Ctrl + PageUp/PageDown`     Cycle tabs forward and back

@@ -1,6 +1,6 @@
-# Windows Keyboard Shortcuts Cheatsheet
+# Windows Keybindings Cheatsheet
 
-## Keyboard Shortcuts
+## Keybindings
 
 ### System
 `Win + Pause/Break`             System properties  

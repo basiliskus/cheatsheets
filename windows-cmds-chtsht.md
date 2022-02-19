@@ -1,4 +1,4 @@
-# Windows Command Prompt Cheatsheet
+# Windows Commands Cheatsheet
 
 ## Commands
 

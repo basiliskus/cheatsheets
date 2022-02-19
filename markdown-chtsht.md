@@ -1,4 +1,4 @@
-# Markdown Cheatsheet
+# Markdown Syntax Cheatsheet
 
 ## Basic Syntax
 

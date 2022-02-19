@@ -1,6 +1,6 @@
 # Personal Cheatsheets
 
-## Key Bindings
+## Keybindings
 
 ### OS
 
@@ -22,7 +22,7 @@
 - [Git](git-cmds-chtsht.md)
 - [Windows](windows-cmds-chtsht.md)
 
-## Programming Languages & Formats
+## Language Syntax
 
 - [Python](python-chtsht.md)
 - [Markdown](markdown-chtsht.md)

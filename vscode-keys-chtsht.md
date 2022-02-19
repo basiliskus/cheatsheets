@@ -1,6 +1,6 @@
-# VS Code Cheatsheet
+# VS Code Keybindings Cheatsheet
 
-## Key Bindings
+## Keybindings
 
 
 ## Glossary

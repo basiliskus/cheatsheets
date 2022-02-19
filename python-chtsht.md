@@ -1,4 +1,4 @@
-# Python Cheatsheet
+# Python Syntax Cheatsheet
 
 ## Commands
 

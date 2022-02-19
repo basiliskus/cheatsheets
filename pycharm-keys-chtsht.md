@@ -1,6 +1,6 @@
-# PyCharm Cheatsheet
+# PyCharm  Keybindings Cheatsheet
 
-## Key Bindings
+## Keybindings
 
 ### Common
 
