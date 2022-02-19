@@ -2,11 +2,4 @@
 
 ## Keybindings
 
-
-## Glossary
-
-
-## Resources
-
-
 ## References

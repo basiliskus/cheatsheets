@@ -1,6 +1,6 @@
 # Windows Keybindings Cheatsheet
 
-##  Keybindings
+## Keybindings
 
 ### Common
 

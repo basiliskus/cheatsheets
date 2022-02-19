@@ -1,4 +1,4 @@
-# PyCharm  Keybindings Cheatsheet
+# PyCharm Keybindings Cheatsheet
 
 ## Keybindings
 
@@ -16,6 +16,7 @@
 `Opt + F7` Find Usages
 
 ### Create and Edit
+
 Show intention actions ⌥ ↩
 Basic / smart code completion ⌃ Space / ⌃ ⇧ Space
 Type name completion ⌃ ⌥ Space
@@ -72,7 +73,7 @@ Find / Replace ⌘ F / ⌘ R
 Find in path / Replace in path ⇧⌘ F / ⇧⌘R
 Next / previous occurence ⌘ G / ⇧⌘ G
 Go to class ⌘ O
-Go to file member ⌘  F12
+Go to file member ⌘ F12
 Go to file / symbol ⇧ ⌘O / ⌥ ⌘O
 
 NAVIGATE FROM SYMBOLS
@@ -104,7 +105,7 @@ Type / call hierarchy ⌃ H / ⌃ ⌥ H
 
 NAVIGATE IN CONTEXT
 Select in... ⌥ F1
-Recently viewed /  ⌘ E / ⇧ ⌘ E
+Recently viewed / ⌘ E / ⇧ ⌘ E
 Last edit location ⇧⌘ ⌨
 Navigate back / forward ⌘ [ / ⌘ ]
 Go to previous / next method ⌃ ↑ / ⌃ ↓
@@ -127,7 +128,7 @@ Run to cursor ⌥ F9
 Force run to cursor ⌥ ⌘ F9
 Show execution point ⌥ F10
 Evaluate expression... ⌥ F8
-Stop  ⌘ F2 
+Stop ⌘ F2
 Stop background processes... ⇧ ⌘ F2
 Resume program ⌥ ⌘ R
 Toggle line breakpoint ⌘ F8
@@ -135,4 +136,5 @@ Toggle temporary line breakpoint ⌥ ⇧⌘ F8
 Edit / view breakpoint ⇧⌘ F8
 
 ## References
+
 - [PyCharm keyboard shortcuts](https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html)

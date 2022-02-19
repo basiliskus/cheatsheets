@@ -1,7 +1,7 @@
 # Firefox Keybindings Cheatsheet
 
-##  Keybindings
-
+## Keybindings
 
 ## References
-* https://github.com/janosgyerik/cheatsheets/blob/master/Firefox-cheat-sheet.mediawiki
+
+- https://github.com/janosgyerik/cheatsheets/blob/master/Firefox-cheat-sheet.mediawiki
