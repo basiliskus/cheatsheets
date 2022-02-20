@@ -4,37 +4,86 @@
 
 ### Common
 
-| Action                       | Windows       | MacOS               | Linux |          |
-| ---------------------------- | ------------- | ------------------- | ----- | -------- |
-| Cut                          | `^ + X`       | `⌘ + X`             |       |          |
-| Copy                         | `^ + C`       | `⌘ + C`             |       |          |
-| Paste                        | `^ + V`       | `⌘ + V`             |       |          |
-| Undo                         | `^ + Z`       | `⌘ + Z`             |       |          |
-| Select All                   | `^ + A`       | `⌘ + A`             |       |          |
-| Find                         | `^ + F`       | `⌘ + F`             |       |          |
-| Find Again Next / Prev       | `F3 / ⇧ + F3` | `⌘ + G / ⇧ + ⌘ + G` |       | :hammer: |
-| Replace                      | `^ + H`       |                     |       |          |
-| Go To                        | `^ + G`       |                     |       |          |
-| Hide front window / rest     |               | `⌘ + H / ⌥ + ⌘ + H` |       |          |
-| Minimize front window / rest |               | `⌘ + M / ⌥ + ⌘ + M` |       |          |
-| Open                         | `^ + O`       | `⌘ + O`             |       |          |
-| Print                        | `^ + P`       | `⌘ + P`             |       |          |
-| Save                         | `^ + S`       | `⌘ + S`             |       |          |
-| Open new tab                 | `^ + T`       | `⌘ + T`             |       |          |
-| Create new file              | `^ + N`       | `⌘ + T`             |       |          |
-| Close current file           | `^ + W`       | `^ + W`             |       | :hammer: |
-| Close front window / rest    |               | `⌘ + W / ⌥ + ⌘ + W` |       |          |
-| Force quit                   |               | `⌥ + ⌘ + ⎋`         |       |          |
-| Show / hide spotlight        |               | `⌘ + ⎵`             |       |          |
-| Show character viewer        |               | `^ + ⌘ + ⎵`         |       |          |
-| Full screen                  |               | `^ + ⌘ + F`         |       |          |
-| Quick look                   |               | `⎵`                 |       |          |
-| Switch to most recent app    |               | `⌘ + ⇥`             |       |          |
-| Take screenshot              |               | `⇧ + ⌘ + 5`         |       |          |
-| Create new folder            |               | `⇧ + ⌘ + N`         |       |          |
-| Open preferences in app      |               | `⌘ + ,`             |       |          |
+| Action                       | Windows | MacOS               | Linux |     |
+| ---------------------------- | ------- | ------------------- | ----- | --- |
+| Hide front window / rest     |         | `⌘ + H / ⌥ + ⌘ + H` |       |     |
+| Minimize front window / rest |         | `⌘ + M / ⌥ + ⌘ + M` |       |     |
+| Close front window / rest    |         | `⌘ + W / ⌥ + ⌘ + W` |       |     |
+| Show / hide spotlight        | `❖`     | `⌘ + ⎵`             |       |     |
+| Show character viewer        |         | `^ + ⌘ + ⎵`         |       |     |
+| Quick look                   |         | `⎵`                 |       |     |
+| Switch to most recent app    |         | `⌘ + ⇥`             |       |     |
+| Open preferences in app      |         | `⌘ + ,`             |       |     |
 
-### Explorer/Finder
+## Keys
+
+| Action        | Windows  | MacOS    | Linux |     |
+| ------------- | -------- | -------- | ----- | --- |
+| Page Up key   | `Fn + ↑` | `Fn + ↑` |       |     |
+| Page Down key | `Fn + ↓` | `Fn + ↓` |       |     |
+| Home key      | `Fn + ←` | `Fn + ←` |       |     |
+| End key       | `Fn + →` | `Fn + →` |       |     |
+
+## System
+
+| Action | Windows | MacOS | Linux |     |
+| ------ | ------- | ----- | ----- | --- |
+| Lock   | `❖ + L` |       |       |     |
+
+## Application
+
+| Action             | Windows   | MacOS | Linux |     |
+| ------------------ | --------- | ----- | ----- | --- |
+| Menu               | `⇧ + F10` |       |       |     |
+| Run application    | `❖ + R`   |       |       |     |
+| Open Explorer      | `❖ + E`   |       |       |     |
+| Windows Settings   | `❖ + I`   |       |       |     |
+| Search             | `❖ + S`   |       |       |     |
+| Open the clipboard | `❖ + V`   |       |       |     |
+
+### Window Navigation
+
+#### Window
+
+| Action                                                | Windows         | MacOS       | Linux |     |
+| ----------------------------------------------------- | --------------- | ----------- | ----- | --- |
+| Maximize window                                       | `⌥ + ⎵ + X`     |             |       |     |
+| Minimize window or Move app/window to another monitor | `⌥ + ⎵ + N`     |             |       |     |
+| Minimize all windows                                  | `❖ + M`         |             |       |     |
+| Remaximize all windows                                | `❖ + ⇧ + M`     |             |       |     |
+| Toggle minimize/maximize windows or Show/Hide desktop | `❖ + D`         | `F11`       |       |     |
+| Peek desktop                                          | `❖ + ,`         |             |       |     |
+| Move window                                           | `⌥ + ⎵ + M`     |             |       |     |
+| Lower window                                          | `⌥ + ⎋`         |             |       |     |
+| Maximize window                                       | `❖ + ↑`         |             |       |     |
+| Remove current app from screen or minimize window     | `❖ + ↓`         |             |       |     |
+| Maximize window to the left                           | `❖ + ←`         |             |       |     |
+| Maximize window to the right                          | `❖ + →`         |             |       |     |
+| Minimize/Maximize all except active window            | `❖ + ↖`         |             |       |     |
+| Stretch window to top/bottom                          | `❖ + ⇧ + ↑`     |             |       |     |
+| Restore/minimize window vertically, maintaining width | `❖ + ⇧ + ↓`     |             |       |     |
+| Move window to another monitor                        | `❖ + ⇧ + ← / →` |             |       |     |
+| Force quit                                            |                 | `⌥ + ⌘ + ⎋` |       |     |
+| Full screen                                           |                 | `^ + ⌘ + F` |       |     |
+
+#### Task View / Mission Control
+
+| Action                           | Windows | MacOS   | Linux |     |
+| -------------------------------- | ------- | ------- | ----- | --- |
+| Show Mission Control / Task View | `❖ + ⇥` | `^ + ↑` |       |     |
+| Show application windows         |         | `^ + ↓` |       |     |
+| Move left a space                |         | `^ + ←` |       |     |
+
+#### Taskbar / Dock
+
+| Action                                                      | Windows           | MacOS | Linux |     |
+| ----------------------------------------------------------- | ----------------- | ----- | ----- | --- |
+| Start app pinned to taskbar by position                     | `❖ + 1-9`         |       |       |     |
+| Start app pinned to taskbar by position (new instance)      | `❖ + ⇧ + 1-9`     |       |       |     |
+| Start app pinned to taskbar by position (adminnew instance) | `❖ + ^ + ⇧ + 1-9` |       |       |     |
+| Open Jump List for app pinned to taskbar by position        | `❖ + ⌥ + 1-9`     |       |       |     |
+
+### Explorer / Finder
 
 | Action                        | Windows | MacOS       | Linux |     |
 | ----------------------------- | ------- | ----------- | ----- | --- |
@@ -62,25 +111,84 @@
 | Make an alias                 |         | `^ + ⌘ + A` |       |     |
 | New finder window             |         | `⌘ + N`     |       |     |
 | Move selected to Trash        |         | `⌘ + ⌫`     |       |     |
+| One level up                  | `⌫`     |             |       |     |
 
-### Editing & Selection
+#### Focus
+
+| Action                            | Windows | MacOS | Linux |     |
+| --------------------------------- | ------- | ----- | ----- | --- |
+| Focus in the notification area    | `❖ + B` |       |       |     |
+| Cycle through apps on the taskbar | `❖ + T` |       |       |     |
+
+### Text Editing
+
+#### Document
+
+| Action                              | Windows       | MacOS               | Linux |          |
+| ----------------------------------- | ------------- | ------------------- | ----- | -------- |
+| Cut                                 | `^ + X`       | `⌘ + X`             |       |          |
+| Copy                                | `^ + C`       | `⌘ + C`             |       |          |
+| Paste                               | `^ + V`       | `⌘ + V`             |       |          |
+| Undo                                | `^ + Z`       | `⌘ + Z`             |       |          |
+| Find                                | `^ + F`       | `⌘ + F`             |       |          |
+| Find Again Next / Prev              | `F3 / ⇧ + F3` | `⌘ + G / ⇧ + ⌘ + G` |       | :hammer: |
+| Replace                             | `^ + H`       |                     |       |          |
+| Go To                               | `^ + G`       |                     |       |          |
+| Save                                | `^ + S`       | `⌘ + S`             |       |          |
+| Save As                             |               | `⇧ + ⌘ + S`         |       |          |
+| Show / hide word definition         |               | `^ + ⌘ + D`         |       |          |
+| Display Spelling and Grammar window |               | `⇧ + ⌘ + ;`         |       |          |
+| Find misspelled words               |               | `⌘ + ;`             |       |          |
+| Copy Style                          |               | `⌥ + ⌘ + C`         |       |          |
+| Paste Style                         |               | `⌥ + ⌘ + V`         |       |          |
+| Paste and Match Style               |               | `⌥ + ⇧ + ⌘ + V`     |       |          |
+| Open                                | `^ + O`       | `⌘ + O`             |       |          |
+| Print                               | `^ + P`       | `⌘ + P`             |       |          |
+| Open new tab                        | `^ + T`       | `⌘ + T`             |       |          |
+| Create new file                     | `^ + N`       | `⌘ + T`             |       |          |
+| Close current file                  | `^ + W`       | `^ + W`             |       | :hammer: |
 
 #### Move Cursor
 
-| Action                  | Windows       | MacOS | Linux |     |
-| ----------------------- | ------------- | ----- | ----- | --- |
-| Move one word at a time | `^ + ←/→`     |       |       |     |
-| Move beginning of line  | `Fn + ← or ↖` |       |       |     |
-| Move end of line        | `Fn + → or ↘` |       |       |     |
-| Move Page Up            | `Fn + ↑ or ⇞` |       |       |     |
-| Move Page Down          | `Fn + ↓ or ⇟` |       |       |     |
-| Scroll Line Up or Down  | `^ + ↑ or ↓`  |       |       |     |
+| Action                      | Windows       | MacOS              | Linux |           |
+| --------------------------- | ------------- | ------------------ | ----- | --------- |
+| Move one word at a time     | `^ + ←/→`     | `⌥ + ←/→`          |       |           |
+| Move beginning of line      | `Fn + ← or ↖` | `⌘ + ←`            |       |           |
+| Move end of line            | `Fn + → or ↘` | `⌘ + →`            |       |           |
+| Move Page Up                | `Fn + ↑ or ⇞` | `⌘ + ↑`            |       |           |
+| Move Page Down              | `Fn + ↓ or ⇟` | `⌘ + ↓`            |       |           |
+| Move beginning of paragraph |               | `⌥ + ↑` or `^ + A` |       | Check Mac |
+| Move end of paragraph       |               | `⌥ + ↓` or `^ + E` |       | Check Mac |
+| Scroll Line Up or Down      | `^ + ↑ or ↓`  |                    |       |           |
 
 #### Select
 
-| Action     | Windows | MacOS | Linux |     |
-| ---------- | ------- | ----- | ----- | --- |
-| Select Key | `⇧`     |       |       |     |
+| Action     | Windows | MacOS   | Linux |     |
+| ---------- | ------- | ------- | ----- | --- |
+| Select Key | `⇧`     | `⇧`     |       |     |
+| Select All | `^ + A` | `⌘ + A` |       |     |
+
+#### Edit
+
+| Action                         | Windows | MacOS             | Linux |     |
+| ------------------------------ | ------- | ----------------- | ----- | --- |
+| Delete word to left            | `^ + ⌫` | `⌥ + ⌫`           |       |     |
+| Delete character to left       |         | `^ + H or ⌫`      |       |     |
+| Delete character to right      |         | `^ + D or Fn + ⌫` |       |     |
+| Delete all characters to right |         | `^ + K`           |       |     |
+| Swap characters                |         | `^ + T`           |       |     |
+
+#### Format
+
+| Action                  | Windows | MacOS       | Linux |     |
+| ----------------------- | ------- | ----------- | ----- | --- |
+| Boldface                |         | `⌘ + B`     |       |     |
+| Italicize               |         | `⌘ + I`     |       |     |
+| Add link                |         | `⌘ + K`     |       |     |
+| Underline               |         | `⌘ + U`     |       |     |
+| Show / hide font window |         | `⌘ + T`     |       |     |
+| Decrease size           |         | `⇧ + ⌘ + -` |       |     |
+| Increase size           |         | `⇧ + ⌘ + +` |       |     |
 
 ### System
 
@@ -90,44 +198,6 @@
 | Reveal desktop           |         | `Fn + F11`  |       |     |
 | Show all app windows     |         | `^ + ↓`     |       |     |
 
-### Document
-
-| Action                                         | Windows | MacOS             | Linux |     |
-| ---------------------------------------------- | ------- | ----------------- | ----- | --- |
-| Boldface                                       |         | `⌘ + B`           |       |     |
-| Italicize                                      |         | `⌘ + I`           |       |     |
-| Add link                                       |         | `⌘ + K`           |       |     |
-| Underline                                      |         | `⌘ + U`           |       |     |
-| Show / hide font window                        |         | `⌘ + T`           |       |     |
-| Show / hide word definition                    |         | `^ + ⌘ + D`       |       |     |
-| Display Spelling and Grammar window            |         | `⇧ + ⌘ + ;`       |       |     |
-| Find misspelled words                          |         | `⌘ + ;`           |       |     |
-| Delete word to left                            |         | `⌥ + ⌫`           |       |     |
-| Delete character to left                       |         | `^ + H or ⌫`      |       |     |
-| Delete character to right                      |         | `^ + D or Fn + ⌫` |       |     |
-| Delete all characters to right                 |         | `^ + K`           |       |     |
-| Page Up key                                    |         | `Fn + ↑`          |       |     |
-| Page Down key                                  |         | `Fn + ↓`          |       |     |
-| Home key                                       |         | `Fn + ←`          |       |     |
-| End key                                        |         | `Fn + →`          |       |     |
-| (Select) Move cursor to beginning of document  |         | `(⇧) + ⌘ + ↑`     |       |     |
-| (Select) Move cursor to end of document        |         | `(⇧) + ⌘ + ↓`     |       |     |
-| (Select) Move cursor to beginning of line      |         | `(⇧) + ⌘ + ←`     |       |     |
-| (Select) Move cursor to end of line            |         | `(⇧) + ⌘ + →`     |       |     |
-| (Select) Move cursor to beginning of prev word |         | `(⇧) + ⌥ + ←`     |       |     |
-| (Select) Move cursor to end of next word       |         | `(⇧) + ⌥ + →`     |       |     |
-| Select to beginning of paragraph               |         | `⇧ + ⌥ + ↑`       |       |     |
-| Select to end of paragraph                     |         | `⇧ + ⌥ + ↓`       |       |     |
-| Move cursor to beginning of paragraph          |         | `^ + A`           |       |     |
-| Move cursor to end of paragraph                |         | `^ + E`           |       |     |
-| Swap characters                                |         | `^ + T`           |       |     |
-| Copy Style                                     |         | `⌥ + ⌘ + C`       |       |     |
-| Paste Style                                    |         | `⌥ + ⌘ + V`       |       |     |
-| Paste and Match Style                          |         | `⌥ + ⇧ + ⌘ + V`   |       |     |
-| Save As                                        |         | `⇧ + ⌘ + S`       |       |     |
-| Decrease size                                  |         | `⇧ + ⌘ + -`       |       |     |
-| Increase size                                  |         | `⇧ + ⌘ + +`       |       |     |
-
 ### Appearance
 
 | Action         | Windows | MacOS | Linux |     |
@@ -135,6 +205,13 @@
 | Larger font    | `^ + =` |       |       |     |
 | Smaller font   | `^ + -` |       |       |     |
 | Rset font size | `^ + 0` |       |       |     |
+
+### Screenshot
+
+| Action                                   | Windows     | MacOS       | Linux |     |
+| ---------------------------------------- | ----------- | ----------- | ----- | --- |
+| Open Snip & Sketch screen selection tool | `❖ + ⇧ + S` |             |       |     |
+| Take screenshot                          |             | `⇧ + ⌘ + 5` |       |     |
 
 ### Other
 

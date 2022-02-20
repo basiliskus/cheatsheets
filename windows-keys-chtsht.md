@@ -58,7 +58,7 @@
 | Maximize window                                                       | `⌥ + ⎵ + X`     |
 | Minimize window or Move app/window to another monitor                 | `⌥ + ⎵ + N`     |
 | Minimize all windows                                                  | `❖ + M`         |
-| Remaximize all windows                                                | `❖ + ⇧ + W`     |
+| Remaximize all windows                                                | `❖ + ⇧ + M`     |
 | Toggle minimize/maximize windows                                      | `❖ + D`         |
 | Move window                                                           | `⌥ + ⎵ + M`     |
 | Lower window                                                          | `⌥ + ⎋`         |

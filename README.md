@@ -44,7 +44,7 @@
 
 - [Template](template-chtsht.md)
 
-## Legends
+## Legend
 
 | Symbol        | Desctiption |
 | ------------- | ----------- |
@@ -67,8 +67,6 @@
 | Return/Enter  | ↵           |
 | Windows Key   | ❖           |
 | Cmd           | ⌘           |
-
-⇥
 
 | Emoji              | Description            |
 | ------------------ | ---------------------- |
