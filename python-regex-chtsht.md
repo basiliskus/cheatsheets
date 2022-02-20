@@ -4,14 +4,14 @@
 
 ### Basics
 
-| Match                        | Regex |
-| ---------------------------- | ----- |
-| Any character except newline | `.`   |
-| The character a              | `a`   |
-| The string ab                | `ab`  |
-| a or b                       | `a | b` |
-| 0 or more a's                | `a*`  |
-| Escapes a special character  | `\`   |
+| Match                        | Regex    |
+| ---------------------------- | -------- |
+| Any character except newline | `.`      |
+| The character a              | `a`      |
+| The string ab                | `ab`     |
+| a or b                       | `a \| b` |
+| 0 or more a's                | `a*`     |
+| Escapes a special character  | `\`      |
 
 ### Quantifiers
 
@@ -41,19 +41,19 @@
 
 ### Assertions
 
-| Match                           | Regex      |
-| ------------------------------- | ---------- |
-| Start of string                 | `^`        |
-| Start of string, ignores m flag | `\A `      |
-| End of string                   | `$`        |
-| End of string, ignores m flag   | `\Z`       |
-| Word boundary                   | `\b`       |
-| Non-word boundary               | `\B`       |
-| Positive lookahead              | `(?=...)`  |
-| Negative lookahead              | `(?!...)`  |
-| Positive lookbehind             | `(?<=...)` |
-| Negative lookbehind             | `(?<!...)` |
-| Conditional                     | `(?() | )` |
+| Match                           | Regex       |
+| ------------------------------- | ----------- |
+| Start of string                 | `^`         |
+| Start of string, ignores m flag | `\A `       |
+| End of string                   | `$`         |
+| End of string, ignores m flag   | `\Z`        |
+| Word boundary                   | `\b`        |
+| Non-word boundary               | `\B`        |
+| Positive lookahead              | `(?=...)`   |
+| Negative lookahead              | `(?!...)`   |
+| Positive lookbehind             | `(?<=...)`  |
+| Negative lookbehind             | `(?<!...)`  |
+| Conditional                     | `(?() \| )` |
 
 ### Groups
 
