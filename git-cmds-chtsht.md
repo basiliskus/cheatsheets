@@ -1,30 +1,5 @@
 # Git Commands Cheatsheet
 
-<!-- MarkdownTOC -->
-
-- [Git Commands Cheatsheet](#git-commands-cheatsheet)
-  - [Commands](#commands)
-    - [Setup](#setup)
-    - [Create](#create)
-    - [Local Changes](#local-changes)
-    - [Commit History](#commit-history)
-    - [Branches & Tags](#branches--tags)
-    - [Update & Publish](#update--publish)
-    - [Merge & Rebase](#merge--rebase)
-    - [Undo](#undo)
-    - [Inspect & Compare](#inspect--compare)
-    - [Tracking Path Changes](#tracking-path-changes)
-    - [Share & Update](#share--update)
-    - [Temporary Commits](#temporary-commits)
-    - [Ignoring Patterns](#ignoring-patterns)
-    - [Help & Documentation](#help--documentation)
-  - [Best Practices](#best-practices)
-  - [Commit Message Guidelines](#commit-message-guidelines)
-  - [Glossary](#glossary)
-  - [References](#references)
-
-<!-- /MarkdownTOC -->
-
 ## Commands
 
 ### Setup
