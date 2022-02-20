@@ -4,81 +4,97 @@
 
 ### Basics
 
-`.` Any character except newline
-`a` The character a
-`ab` The string ab
-`a|b` a or b
-`a*` 0 or more a's
-`\` Escapes a special character
+| Match                        | Regex |
+| ---------------------------- | ----- |
+| Any character except newline | `.`   |
+| The character a              | `a`   |
+| The string ab                | `ab`  |
+| a or b                       | `a | b` |
+| 0 or more a's                | `a*`  |
+| Escapes a special character  | `\`   |
 
 ### Quantifiers
 
-`*` 0 or more
-`+` 1 or more
-`?` 0 or 1
-`{2}` Exactly 2
-`{2, 5}` Between 2 and 5
-`{2,}` 2 or more
-`(,5}` Up to 5
+| Match           | Regex    |
+| --------------- | -------- |
+| 0 or more       | `*`      |
+| 1 or more       | `+`      |
+| 0 or 1          | `?`      |
+| Exactly 2       | `{2}`    |
+| Between 2 and 5 | `{2, 5}` |
+| 2 or more       | `{2,}`   |
+| Up to 5         | `(,5}`   |
 
 ### Character Classes
 
-`[ab-d]` One character of: a, b, c, d
-`[^ab-d]` One character except: a, b, c, d
-`[\b]` Backspace character
-`\d` One digit
-`\D` One non-digit
-`\s` One whitespace
-`\S` One non-whitespace
-`\w` One word character
-`\W` One non-word character
+| Match                            | Regex     |
+| -------------------------------- | --------- |
+| One character of: a, b, c, d     | `[ab-d]`  |
+| One character except: a, b, c, d | `[^ab-d]` |
+| Backspace character              | `[\b]`    |
+| One digit                        | `\d`      |
+| One non-digit                    | `\D`      |
+| One whitespace                   | `\s`      |
+| One non-whitespace               | `\S`      |
+| One word character               | `\w`      |
+| One non-word character           | `\W`      |
 
 ### Assertions
 
-`^` Start of string
-`\A ` Start of string, ignores m flag
-`$` End of string
-`\Z` End of string, ignores m flag
-`\b` Word boundary
-`\B` Non-word boundary
-`(?=...)` Positive lookahead
-`(?!...)` Negative lookahead
-`(?<=...)` Positive lookbehind
-`(?<!...)` Negative lookbehind
-`(?()|)` Conditional
+| Match                           | Regex      |
+| ------------------------------- | ---------- |
+| Start of string                 | `^`        |
+| Start of string, ignores m flag | `\A `      |
+| End of string                   | `$`        |
+| End of string, ignores m flag   | `\Z`       |
+| Word boundary                   | `\b`       |
+| Non-word boundary               | `\B`       |
+| Positive lookahead              | `(?=...)`  |
+| Negative lookahead              | `(?!...)`  |
+| Positive lookbehind             | `(?<=...)` |
+| Negative lookbehind             | `(?<!...)` |
+| Conditional                     | `(?() | )` |
 
 ### Groups
 
-`(...)` Capturing group
-`(?P<Y>...)` Capturing group named Y
-`(?:...)` Non-capturing group
-`\Y` Match the Y'th captured group
-`(?P=Y)` Match the named group Y
-`(?#...)` Comment
+| Match                         | Regex        |
+| ----------------------------- | ------------ |
+| Capturing group               | `(...)`      |
+| Capturing group named Y       | `(?P<Y>...)` |
+| Non-capturing group           | `(?:...)`    |
+| Match the Y'th captured group | `\Y`         |
+| Match the named group Y       | `(?P=Y)`     |
+| Comment                       | `(?#...)`    |
 
 ### Flags
 
-`i` Ignore case
-`m` ^ and $ match start and end of line
-`s` . matches newline as well
-`x` Allow spaces and comments
-`L` Locale character classes
-`u` Unicode character classes
-`(?iLmsux)` Set flags within regex
+| Match                               | Regex       |
+| ----------------------------------- | ----------- |
+| Ignore case                         | `i`         |
+| ^ and $ match start and end of line | `m`         |
+| . matches newline as well           | `s`         |
+| Allow spaces and comments           | `x`         |
+| Locale character classes            | `L`         |
+| Unicode character classes           | `u`         |
+| Set flags within regex              | `(?iLmsux)` |
 
 ### Special Characters
 
-`\n` Newline
-`\r` Carriage return
-`\t` Tab
-`\YYY` Octal character YYY
-`\xYY` Hexadecimal character YY
+| Match                    | Regex  |
+| ------------------------ | ------ |
+| Newline                  | `\n`   |
+| Carriage return          | `\r`   |
+| Tab                      | `\t`   |
+| Octal character YYY      | `\YYY` |
+| Hexadecimal character YY | `\xYY` |
 
 ### Replacement
 
-`\g<0>` Insert entire match
-`\g<Y>` Insert match Y (name or number)
-`\Y` Insert group numbered Y
+| Match                           | Regex   |
+| ------------------------------- | ------- |
+| Insert entire match             | `\g<0>` |
+| Insert match Y (name or number) | `\g<Y>` |
+| Insert group numbered Y         | `\Y`    |
 
 ## strftime() and strptime() Format Codes
 

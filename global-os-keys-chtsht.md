@@ -32,7 +32,7 @@
 | Switch to most recent app    |               | `⌘ + ⇥`             |       |          |
 | Take screenshot              |               | `⇧ + ⌘ + 5`         |       |          |
 | Create new folder            |               | `⇧ + ⌘ + N`         |       |          |
-| Open preferences in app      |               | `⌘+,`               |       |          |
+| Open preferences in app      |               | `⌘ + ,`             |       |          |
 
 ### Explorer/Finder
 
@@ -92,41 +92,41 @@
 
 ### Document
 
-| Action                                         | Windows | MacOS           | Linux |     |
-| ---------------------------------------------- | ------- | --------------- | ----- | --- |
-| Boldface                                       |         | `⌘ + B`         |       |     |
-| Italicize                                      |         | `⌘ + I`         |       |     |
-| Add link                                       |         | `⌘ + K`         |       |     |
-| Underline                                      |         | `⌘ + U`         |       |     |
-| Show / hide font window                        |         | `⌘ + T`         |       |     |
-| Show / hide word definition                    |         | `^ + ⌘ + D`     |       |     |
-| Display Spelling and Grammar window            |         | `⇧ + ⌘ + ;`     |       |     |
-| Find misspelled words                          |         | `⌘ + ;`         |       |     |
-| Delete word to left                            |         | `⌥ + ⌫`         |       |     |
-| Delete character to left                       |         | `^ + H or ⌫`    |       |     |
-| Delete character to right                      |         | `^ + D or Fn+⌫` |       |     |
-| Delete all characters to right                 |         | `^ + K`         |       |     |
-| Page Up key                                    |         | `Fn + ↑`        |       |     |
-| Page Down key                                  |         | `Fn + ↓`        |       |     |
-| Home key                                       |         | `Fn + ←`        |       |     |
-| End key                                        |         | `Fn + →`        |       |     |
-| (Select) Move cursor to beginning of document  |         | `(⇧) + ⌘ + ↑`   |       |     |
-| (Select) Move cursor to end of document        |         | `(⇧) + ⌘ + ↓`   |       |     |
-| (Select) Move cursor to beginning of line      |         | `(⇧) + ⌘ + ←`   |       |     |
-| (Select) Move cursor to end of line            |         | `(⇧) + ⌘ + →`   |       |     |
-| (Select) Move cursor to beginning of prev word |         | `(⇧) + ⌥ + ←`   |       |     |
-| (Select) Move cursor to end of next word       |         | `(⇧) + ⌥ + →`   |       |     |
-| Select to beginning of paragraph               |         | `⇧ + ⌥ + ↑`     |       |     |
-| Select to end of paragraph                     |         | `⇧ + ⌥ + ↓`     |       |     |
-| Move cursor to beginning of paragraph          |         | `^ + A`         |       |     |
-| Move cursor to end of paragraph                |         | `^ + E`         |       |     |
-| Swap characters                                |         | `^ + T`         |       |     |
-| Copy Style                                     |         | `⌥ + ⌘ + C`     |       |     |
-| Paste Style                                    |         | `⌥ + ⌘ + V`     |       |     |
-| Paste and Match Style                          |         | `⌥ + ⇧ + ⌘ + V` |       |     |
-| Save As                                        |         | `⇧ + ⌘ + S`     |       |     |
-| Decrease size                                  |         | `⇧ + ⌘ + -`     |       |     |
-| Increase size                                  |         | `⇧ + ⌘ + +`     |       |     |
+| Action                                         | Windows | MacOS             | Linux |     |
+| ---------------------------------------------- | ------- | ----------------- | ----- | --- |
+| Boldface                                       |         | `⌘ + B`           |       |     |
+| Italicize                                      |         | `⌘ + I`           |       |     |
+| Add link                                       |         | `⌘ + K`           |       |     |
+| Underline                                      |         | `⌘ + U`           |       |     |
+| Show / hide font window                        |         | `⌘ + T`           |       |     |
+| Show / hide word definition                    |         | `^ + ⌘ + D`       |       |     |
+| Display Spelling and Grammar window            |         | `⇧ + ⌘ + ;`       |       |     |
+| Find misspelled words                          |         | `⌘ + ;`           |       |     |
+| Delete word to left                            |         | `⌥ + ⌫`           |       |     |
+| Delete character to left                       |         | `^ + H or ⌫`      |       |     |
+| Delete character to right                      |         | `^ + D or Fn + ⌫` |       |     |
+| Delete all characters to right                 |         | `^ + K`           |       |     |
+| Page Up key                                    |         | `Fn + ↑`          |       |     |
+| Page Down key                                  |         | `Fn + ↓`          |       |     |
+| Home key                                       |         | `Fn + ←`          |       |     |
+| End key                                        |         | `Fn + →`          |       |     |
+| (Select) Move cursor to beginning of document  |         | `(⇧) + ⌘ + ↑`     |       |     |
+| (Select) Move cursor to end of document        |         | `(⇧) + ⌘ + ↓`     |       |     |
+| (Select) Move cursor to beginning of line      |         | `(⇧) + ⌘ + ←`     |       |     |
+| (Select) Move cursor to end of line            |         | `(⇧) + ⌘ + →`     |       |     |
+| (Select) Move cursor to beginning of prev word |         | `(⇧) + ⌥ + ←`     |       |     |
+| (Select) Move cursor to end of next word       |         | `(⇧) + ⌥ + →`     |       |     |
+| Select to beginning of paragraph               |         | `⇧ + ⌥ + ↑`       |       |     |
+| Select to end of paragraph                     |         | `⇧ + ⌥ + ↓`       |       |     |
+| Move cursor to beginning of paragraph          |         | `^ + A`           |       |     |
+| Move cursor to end of paragraph                |         | `^ + E`           |       |     |
+| Swap characters                                |         | `^ + T`           |       |     |
+| Copy Style                                     |         | `⌥ + ⌘ + C`       |       |     |
+| Paste Style                                    |         | `⌥ + ⌘ + V`       |       |     |
+| Paste and Match Style                          |         | `⌥ + ⇧ + ⌘ + V`   |       |     |
+| Save As                                        |         | `⇧ + ⌘ + S`       |       |     |
+| Decrease size                                  |         | `⇧ + ⌘ + -`       |       |     |
+| Increase size                                  |         | `⇧ + ⌘ + +`       |       |     |
 
 ### Appearance
 
