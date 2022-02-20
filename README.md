@@ -2,26 +2,23 @@
 
 ## Keybindings
 
-### OS
+- [OS](global-os-keys-chtsht.md)
 
-- [Global](global-os-keys-chtsht.md)
-- [MacOS](macos-keys-chtsht.md)
-- [Windows](windows-keys-chtsht.md)
+  - [MacOS](macos-keys-chtsht.md)
+  - [Windows](windows-keys-chtsht.md)
 
-### Text Editors & IDEs
+- [Text Editors & IDEs](global-ide-keys-chtsht.md)
 
-- [Global](global-ide-keys-chtsht.md)
-- [Vi/Vim](vi-keys-chtsht.md)
-- [Emacs](emacs-keys-chtsht.md)
-- [Visual Studio Code](vscode-keys-chtsht.md)
-- [Sublime Text](sublime-keys-chtsht.md)
-- [PyCharm](pycharm-keys-chtsht.md)
+  - [Sublime Text](sublime-keys-chtsht.md)
+  - [Visual Studio Code](vscode-keys-chtsht.md)
+  - [PyCharm](pycharm-keys-chtsht.md)
+  - [Emacs](emacs-keys-chtsht.md)
+  - [Vi/Vim](vi-keys-chtsht.md)
 
-### Browsers
+- [Browsers](global-browser-keys-chtsht.md)
 
-- [Global](global-browser-keys-chtsht.md)
-- [Chrome](chrome-keys-chtsht.md)
-- [Firefox](firefox-keys-chtsht.md)
+  - [Chrome](chrome-keys-chtsht.md)
+  - [Firefox](firefox-keys-chtsht.md)
 
 ## Terminal Commands
 
@@ -32,10 +29,9 @@
 
 - [Python](python-syntax-chtsht.md)
 - [Markdown](markdown-syntax-chtsht.md)
+- Regex
 
-## Regex
-
-- [Python](python-regex-chtsht.md)
+  - [Python](python-regex-chtsht.md)
 
 ## Other
 

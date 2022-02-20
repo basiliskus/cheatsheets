@@ -31,20 +31,16 @@
 
 #### Move Cursor
 
-| Action                        | Sublime                | VS Code                | PyCharm | Emacs | Vi  |     |
-| ----------------------------- | ---------------------- | ---------------------- | ------- | ----- | --- | --- |
-| Move one word at a time       | `Ctrl + Left or Right` | `Ctrl + Left or Right` |         |       |     |     |
-| Move beginning or end of line |                        | `Fn + Left or Right`   |         |       |     |     |
-| Move Page Up or Down          |                        | `Fn + Up or Down`      |         |       |     |     |
-| Scroll Line Up or Down        |                        | `Ctrl + Up or Down`    |         |       |     |     |
+| Action                 | Sublime | VS Code             | PyCharm | Emacs | Vi  |     |
+| ---------------------- | ------- | ------------------- | ------- | ----- | --- | --- |
+| Scroll Line Up or Down |         | `Ctrl + Up or Down` |         |       |     |     |
 
 #### Select
 
-| Action                    | Sublime                        | VS Code                        | PyCharm | Emacs | Vi  |          |
-| ------------------------- | ------------------------------ | ------------------------------ | ------- | ----- | --- | -------- |
-| Select one word at a time | `Ctrl + Shift + Left or Right` | `Ctrl + Shift + Left or Right` |         |       |     |          |
-| Select current word       | `Ctrl + D`                     | `Ctrl + D`                     |         |       |     | :hammer: |
-| Select all of Find Match  | :grey_question:                | `Ctrl + Shift + L`             |         |       |     | :hammer: |
+| Action                   | Sublime         | VS Code            | PyCharm | Emacs | Vi  |          |
+| ------------------------ | --------------- | ------------------ | ------- | ----- | --- | -------- |
+| Select current word      | `Ctrl + D`      | `Ctrl + D`         |         |       |     | :hammer: |
+| Select all of Find Match | :grey_question: | `Ctrl + Shift + L` |         |       |     | :hammer: |
 
                             `Selection > Expand Selection to Paragraph`
 
@@ -70,10 +66,9 @@
 
 | Action                 | Sublime                       | VS Code                       | PyCharm | Emacs | Vi  |          |
 | ---------------------- | ----------------------------- | ----------------------------- | ------- | ----- | --- | -------- |
-| Find                   | `Ctrl + F`                    | `Ctrl + F`                    |         |       |     |          |
 | Next find              | `Enter or F3`                 | `Enter or F3`                 |         |       |     | :hammer: |
 | Previous find          | `Shift + Enter or Shift + F3` | `Shift + Enter or Shift + F3` |         |       |     | :hammer: |
-| Find in files          | `Ctrl + Shift + F`            | `Ctrl + Shift + F`            |         |       |     | :hammer: |
+| Find in files          | `Ctrl + Shift + F`            | `Ctrl + Shift + F`            |         |       |     |          |
 | Next result            | `F4`                          | `F4`                          |         |       |     |          |
 | Previous result        | `Shift + F4`                  | `Shift + F4`                  |         |       |     |          |
 | Use selection for find | `Ctrl + E`                    | :grey_question:               |         |       |     | :hammer: |
@@ -93,7 +88,6 @@
 | Action                    | Sublime            | VS Code            | PyCharm | Emacs | Vi  |     |
 | ------------------------- | ------------------ | ------------------ | ------- | ----- | --- | --- |
 | Incremental find          | `Ctrl + I`         | :grey_question:    |         |       |     |     |
-| Find and replace          | `Ctrl + H`         | `Ctrl + H`         |         |       |     |     |
 | Replace next              | `Ctrl + Shift + H` | :grey_question:    |         |       |     |     |
 | Replace in files          | :grey_question:    | `Ctrl + Shift + H` |         |       |     |     |
 | Use selection for replace | `Ctrl + Shift + E` | :grey_question:    |         |       |     |     |
@@ -113,11 +107,7 @@
 
 | Action                  | Sublime                     | VS Code            | PyCharm | Emacs | Vi  |                                              |
 | ----------------------- | --------------------------- | ------------------ | ------- | ----- | --- | -------------------------------------------- |
-| Open new file           | `Ctrl + O`                  | `Ctrl + O`         |         |       |     |                                              |
-| New file                | `Ctrl + N`                  | `Ctrl + N`         |         |       |     |                                              |
 | New file (advanced)     | `Ctrl + Alt + N`            |                    |         |       |     | :hammer: [AdvancedNewFile](#advancednewfile) |
-| Save file               | `Ctrl + S`                  | `Ctrl + S`         |         |       |     |                                              |
-| Close current file      | `Ctrl + W`                  | `Ctrl + W`         |         |       |     | :hammer:                                     |
 | Reopen closed file      | `Ctrl + Shift + T`          | `Ctrl + Shift + T` |         |       |     | :hammer:                                     |
 | Open current file again | `File > New View Into File` |                    |         |       |     |                                              |
 
@@ -135,16 +125,7 @@
 | Focus back to edit area when focus on sidebar | `Esc`                 |                      |         |       |     |     |
 | Reveal in sidebar                             | `Ctrl + Alt + S`      |                      |         |       |     |     |
 
-### View
-
-#### Appearance
-
-| Action       | Sublime    | VS Code    | PyCharm | Emacs | Vi  |     |
-| ------------ | ---------- | ---------- | ------- | ----- | --- | --- |
-| Larger font  | `Ctrl + =` | `Ctrl + =` |         |       |     |     |
-| Smaller font | `Ctrl + -` | `Ctrl + -` |         |       |     |     |
-
-#### Layout
+### Layout
 
 | Action      | Sublime           | VS Code | PyCharm | Emacs | Vi  |     |
 | ----------- | ----------------- | ------- | ------- | ----- | --- | --- |
