@@ -99,7 +99,7 @@
 | Selects next/prev tag    | `Ctrl + Alt + , or .`        | [Emmet](#emmet)                            |
 | Go to line               | `Ctrl + G`                   |                                            |
 | Go to symbol             | `Ctrl + R`                   |                                            |
-| Go to symbol in project  | `Ctrl + Shift + R`           | :no_entry_sign:                            |
+| Go to symbol in project  | `Ctrl + Shift + R`           | :no_entry:                                 |
 | Go to definition         | `F12`                        | :warning: replace with `Ctrl + Alt + Down` |
 | Jump back                | `Alt + -`                    |                                            |
 
@@ -395,7 +395,7 @@ https://github.com/SublimeText/Origami
 | :warning:          | Conflict (fix in `Preferences > Key Bindings`) |
 | :hammer:           | Drill                                          |
 | :left_right_arrow: | Modified                                       |
-| :no_entry_sign:    | Not working                                    |
+| :no_entry:         | Not working or Missing                         |
 
 ## References
 

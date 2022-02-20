@@ -40,3 +40,13 @@
 ## Other
 
 - [Template](template-chtsht.md)
+
+## Legend
+
+| Emoji              | Description            |
+| ------------------ | ---------------------- |
+| :warning:          | Conflict               |
+| :hammer:           | Drill                  |
+| :left_right_arrow: | Modified               |
+| :no_entry:         | Not working or Missing |
+| :grey_question:    | Need to check          |
