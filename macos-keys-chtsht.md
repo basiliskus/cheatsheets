@@ -1,4 +1,4 @@
-# Windows Keybindings Cheatsheet
+# MacOS Keybindings Cheatsheet
 
 ## Keybindings
 
