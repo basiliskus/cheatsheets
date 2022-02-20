@@ -2,18 +2,17 @@
 
 ## Keybindings
 
-### Common
+### Practice :hammer:
 
-| Action                       | Windows | MacOS               | Linux |     |
-| ---------------------------- | ------- | ------------------- | ----- | --- |
-| Hide front window / rest     |         | `⌘ + H / ⌥ + ⌘ + H` |       |     |
-| Minimize front window / rest |         | `⌘ + M / ⌥ + ⌘ + M` |       |     |
-| Close front window / rest    |         | `⌘ + W / ⌥ + ⌘ + W` |       |     |
-| Show / hide spotlight        | `❖`     | `⌘ + ⎵`             |       |     |
-| Show character viewer        |         | `^ + ⌘ + ⎵`         |       |     |
-| Quick look                   |         | `⎵`                 |       |     |
-| Switch to most recent app    |         | `⌘ + ⇥`             |       |     |
-| Open preferences in app      |         | `⌘ + ,`             |       |     |
+- Navigation
+  - windows
+  - tabs
+  - files
+- Text Editing
+  - Document formatting
+  - Paragraph
+  - Delete word, line
+- Screenshoot
 
 ## Keys
 
@@ -26,45 +25,53 @@
 
 ## System
 
-| Action | Windows | MacOS | Linux |     |
-| ------ | ------- | ----- | ----- | --- |
-| Lock   | `❖ + L` |       |       |     |
+| Action                | Windows | MacOS   | Linux |     |
+| --------------------- | ------- | ------- | ----- | --- |
+| Lock                  | `❖ + L` |         |       |     |
+| Show / hide spotlight | `❖`     | `⌘ + ⎵` |       |     |
 
 ## Application
 
-| Action             | Windows   | MacOS | Linux |     |
-| ------------------ | --------- | ----- | ----- | --- |
-| Menu               | `⇧ + F10` |       |       |     |
-| Run application    | `❖ + R`   |       |       |     |
-| Open Explorer      | `❖ + E`   |       |       |     |
-| Windows Settings   | `❖ + I`   |       |       |     |
-| Search             | `❖ + S`   |       |       |     |
-| Open the clipboard | `❖ + V`   |       |       |     |
+| Action                  | Windows   | MacOS       | Linux |     |
+| ----------------------- | --------- | ----------- | ----- | --- |
+| Menu                    | `⇧ + F10` |             |       |     |
+| Run application         | `❖ + R`   |             |       |     |
+| Open Explorer           | `❖ + E`   |             |       |     |
+| Windows Settings        | `❖ + I`   |             |       |     |
+| Search                  | `❖ + S`   |             |       |     |
+| Open the clipboard      | `❖ + V`   |             |       |     |
+| Open preferences in app |           | `⌘ + ,`     |       |     |
+| Show character viewer   |           | `^ + ⌘ + ⎵` |       |     |
 
 ### Window Navigation
 
 #### Window
 
-| Action                                                | Windows         | MacOS       | Linux |     |
-| ----------------------------------------------------- | --------------- | ----------- | ----- | --- |
-| Maximize window                                       | `⌥ + ⎵ + X`     |             |       |     |
-| Minimize window or Move app/window to another monitor | `⌥ + ⎵ + N`     |             |       |     |
-| Minimize all windows                                  | `❖ + M`         |             |       |     |
-| Remaximize all windows                                | `❖ + ⇧ + M`     |             |       |     |
-| Toggle minimize/maximize windows or Show/Hide desktop | `❖ + D`         | `F11`       |       |     |
-| Peek desktop                                          | `❖ + ,`         |             |       |     |
-| Move window                                           | `⌥ + ⎵ + M`     |             |       |     |
-| Lower window                                          | `⌥ + ⎋`         |             |       |     |
-| Maximize window                                       | `❖ + ↑`         |             |       |     |
-| Remove current app from screen or minimize window     | `❖ + ↓`         |             |       |     |
-| Maximize window to the left                           | `❖ + ←`         |             |       |     |
-| Maximize window to the right                          | `❖ + →`         |             |       |     |
-| Minimize/Maximize all except active window            | `❖ + ↖`         |             |       |     |
-| Stretch window to top/bottom                          | `❖ + ⇧ + ↑`     |             |       |     |
-| Restore/minimize window vertically, maintaining width | `❖ + ⇧ + ↓`     |             |       |     |
-| Move window to another monitor                        | `❖ + ⇧ + ← / →` |             |       |     |
-| Force quit                                            |                 | `⌥ + ⌘ + ⎋` |       |     |
-| Full screen                                           |                 | `^ + ⌘ + F` |       |     |
+| Action                                                | Windows         | MacOS               | Linux |     |
+| ----------------------------------------------------- | --------------- | ------------------- | ----- | --- |
+| Maximize window                                       | `⌥ + ⎵ + X`     |                     |       |     |
+| Minimize window or Move app/window to another monitor | `⌥ + ⎵ + N`     |                     |       |     |
+| Minimize all windows                                  | `❖ + M`         |                     |       |     |
+| Remaximize all windows                                | `❖ + ⇧ + M`     |                     |       |     |
+| Toggle minimize/maximize windows or Show/Hide desktop | `❖ + D`         | `F11`               |       |     |
+| Peek desktop                                          | `❖ + ,`         |                     |       |     |
+| Quick look                                            |                 | `⎵`                 |       |     |
+| Move window                                           | `⌥ + ⎵ + M`     |                     |       |     |
+| Lower window                                          | `⌥ + ⎋`         |                     |       |     |
+| Maximize window                                       | `❖ + ↑`         |                     |       |     |
+| Remove current app from screen or minimize window     | `❖ + ↓`         |                     |       |     |
+| Maximize window to the left                           | `❖ + ←`         |                     |       |     |
+| Maximize window to the right                          | `❖ + →`         |                     |       |     |
+| Minimize/Maximize all except active window            | `❖ + ↖`         |                     |       |     |
+| Stretch window to top/bottom                          | `❖ + ⇧ + ↑`     |                     |       |     |
+| Restore/minimize window vertically, maintaining width | `❖ + ⇧ + ↓`     |                     |       |     |
+| Move window to another monitor                        | `❖ + ⇧ + ← / →` |                     |       |     |
+| Force quit                                            |                 | `⌥ + ⌘ + ⎋`         |       |     |
+| Full screen                                           |                 | `^ + ⌘ + F`         |       |     |
+| Switch to most recent app                             |                 | `⌘ + ⇥`             |       |     |
+| Hide front window / rest                              |                 | `⌘ + H / ⌥ + ⌘ + H` |       |     |
+| Minimize front window / rest                          |                 | `⌘ + M / ⌥ + ⌘ + M` |       |     |
+| Close front window / rest                             |                 | `⌘ + W / ⌥ + ⌘ + W` |       |     |
 
 #### Task View / Mission Control
 
@@ -212,16 +219,5 @@
 | ---------------------------------------- | ----------- | ----------- | ----- | --- |
 | Open Snip & Sketch screen selection tool | `❖ + ⇧ + S` |             |       |     |
 | Take screenshot                          |             | `⇧ + ⌘ + 5` |       |     |
-
-### Other
-
-| Action | Windows | MacOS | Linux |     |
-| ------ | ------- | ----- | ----- | --- |
-|        |         |       |       |     |
-|        |         |       |       |     |
-|        |         |       |       |     |
-|        |         |       |       |     |
-|        |         |       |       |     |
-|        |         |       |       |     |
 
 ## References

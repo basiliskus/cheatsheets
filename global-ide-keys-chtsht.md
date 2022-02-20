@@ -2,7 +2,10 @@
 
 ## Keybindings
 
-### Common
+### Practice :hammer:
+
+- Find all instances
+- Expand/Shrink
 
 ### Editing & Selection
 
@@ -139,17 +142,6 @@
 | -------------------- | ------- | ------- | ------- | ----- | --- | --- |
 | Show/Hide Console    | `^ + '` | `^ + J` |         |       |     |     |
 | Show/Hide Side Panel |         | `^ + B` |         |       |     |     |
-
-### Other
-
-| Action | Sublime | VS Code | PyCharm | Emacs | Vi  |     |
-| ------ | ------- | ------- | ------- | ----- | --- | --- |
-|        |         |         |         |       |     |     |
-|        |         |         |         |       |     |     |
-|        |         |         |         |       |     |     |
-|        |         |         |         |       |     |     |
-|        |         |         |         |       |     |     |
-|        |         |         |         |       |     |     |
 
 ## References
 
