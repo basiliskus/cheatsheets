@@ -4,27 +4,27 @@
 
 ### Common
 
-| Action                                         | Keybind              |
-| ---------------------------------------------- | -------------------- |
-| Search Everywhere                              | `Shift+Shift`        |
-| Find Action                                    | `Shift+Cmd+A`        |
-| Show Context Action                            | `Opt+Return`         |
-| Navigate between code issues                   | `F2`                 |
-| Jump to the next or previous highlighted error | `Shift+F2`           |
-| View recent files                              | `Cmd+E`              |
-| Extend/Shrink selection                        | `Opt+Up or Opt+Down` |
-| Add/remove line or block comment               | `Cmd+/`              |
-| Comment out a line or block of code            | `Opt+Cmd+/`          |
-| Find Usages                                    | `Opt+F7`             |
+| Action                                         | Keybind          |
+| ---------------------------------------------- | ---------------- |
+| Search Everywhere                              | `⇧ + ⇧`          |
+| Find Action                                    | `⇧ + ⌘ + A`      |
+| Show Context Action                            | `⌥ + ↵`          |
+| Navigate between code issues                   | `F2`             |
+| Jump to the next or previous highlighted error | `⇧ + F2`         |
+| View recent files                              | `⌘ + E`          |
+| Extend/Shrink selection                        | `⌥ + ↑ or ⌥ + ↓` |
+| Add/remove line or block comment               | `⌘ + /`          |
+| Comment out a line or block of code            | `⌥ + ⌘ + /`      |
+| Find Usages                                    | `⌥ + F7`         |
 
 ### Create and Edit
 
-Show intention actions ⌥ ↩
-Basic / smart code completion ⌃ Space / ⌃ ⇧ Space
-Type name completion ⌃ ⌥ Space
-Complete statement ⇧ ⌘ ↩
+Show intention actions ⌥ ↵
+Basic / smart code completion ⌃ ⎵ / ⌃ ⇧ ⎵
+Type name completion ⌃ ⌥ ⎵
+Complete statement ⇧ ⌘ ↵
 Parameter information ⌘ P
-Quick definition ⌥ Space
+Quick definition ⌥ ⎵
 Quick / external documentation F1 / ⇧F1
 Generate code ⌘ N
 Override / implement members ⌃ O / ⌃ I
@@ -40,8 +40,8 @@ Paste from clipboard history ⇧ ⌘ V
 Duplicate current line or selection ⌘ D
 Move line up / down ⇧ ⌘ ↑ / ⇧ ⌘ ↓
 Delete line at caret ⌘ ⌨
-Join / split line ⌃ ⇧ J / ⌘ ↩
-Start new line ⇧ ↩
+Join / split line ⌃ ⇧ J / ⌘ ↵
+Start new line ⇧ ↵
 Toggle case ⇧ ⌘ U
 Expand / collapse code block ⌘ + / ⌘ -
 Expand / collapse all ⇧⌘ + / ⇧⌘ -

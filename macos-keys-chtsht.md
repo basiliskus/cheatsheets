@@ -6,113 +6,113 @@
 
 | Action                       | Keybind             |
 | ---------------------------- | ------------------- |
-| Cut                          | `Cmd+X`             |
-| Copy                         | `Cmd+C`             |
-| Paste                        | `Cmd+V`             |
-| Undo                         | `Cmd+Z`             |
-| Select All                   | `Cmd+A`             |
-| Find                         | `Cmd+F`             |
-| Find Again Next / Prev       | `Cmd+G/Shift+Cmd+G` |
-| Hide front window / rest     | `Cmd+H/Opt+Cmd+H`   |
-| Minimize front window / rest | `Cmd+M/Opt+Cmd+M`   |
-| Open                         | `Cmd+O`             |
-| Print                        | `Cmd+P`             |
-| Save                         | `Cmd+S`             |
-| Open new tab                 | `Cmd+T`             |
-| Close front window / rest    | `Cmd+W/Opt+Cmd+W`   |
-| Force quit                   | `Opt+Cmd+Esc`       |
-| Show / hide spotlight        | `Cmd+Space`         |
-| Show character viewer        | `Ctrl+Cmd+Space`    |
-| Full screen                  | `Ctrl+Cmd+F`        |
-| Quick look                   | `Space`             |
-| Switch to most recent app    | `Cmd+Tab`           |
-| Take screenshot              | `Shift+Cmd+5`       |
-| Create new folder            | `Shift+Cmd+N`       |
-| Open preferences in app      | `Cmd+,`             |
+| Cut                          | `⌘ + X`             |
+| Copy                         | `⌘ + C`             |
+| Paste                        | `⌘ + V`             |
+| Undo                         | `⌘ + Z`             |
+| Select All                   | `⌘ + A`             |
+| Find                         | `⌘ + F`             |
+| Find Again Next / Prev       | `⌘ + G / ⇧ + ⌘ + G` |
+| Hide front window / rest     | `⌘ + H / ⌥ + ⌘ + H` |
+| Minimize front window / rest | `⌘ + M / ⌥ + ⌘ + M` |
+| Open                         | `⌘ + O`             |
+| Print                        | `⌘ + P`             |
+| Save                         | `⌘ + S`             |
+| Open new tab                 | `⌘ + T`             |
+| Close front window / rest    | `⌘ + W / ⌥ + ⌘ + W` |
+| Force quit                   | `⌥ + ⌘ + ⎋`         |
+| Show / hide spotlight        | `⌘ + ⎵`             |
+| Show character viewer        | `^ + ⌘ + ⎵`         |
+| Full screen                  | `^ + ⌘ + F`         |
+| Quick look                   | `⎵`                 |
+| Switch to most recent app    | `⌘ + ⇥`             |
+| Take screenshot              | `⇧ + ⌘ + 5`         |
+| Create new folder            | `⇧ + ⌘ + N`         |
+| Open preferences in app      | `⌘ + ,`             |
 
 ### Finder
 
-| Action                        | Keybind       |
-| ----------------------------- | ------------- |
-| Duplicate selected file       | `Cmd+D`       |
-| Eject selected disk or volume | `Cmd+E`       |
-| Spotlight search              | `Cmd+F`       |
-| Get info                      | `Cmd+I`       |
-| Open Computer                 | `Shift+Cmd+C` |
-| Open Desktop folder           | `Shift+Cmd+D` |
-| Open Recent folder            | `Shift+Cmd+F` |
-| Open Home folder              | `Shift+Cmd+H` |
-| Open iCloud folder            | `Shift+Cmd+I` |
-| Open Network folder           | `Shift+Cmd+K` |
-| Open Documents folder         | `Shift+Cmd+O` |
-| Open AirDrop folder           | `Shift+Cmd+R` |
-| Open Utilities folder         | `Shift+Cmd+U` |
-| Open Downloads folder         | `Opt+Cmd+L`   |
-| Open Go to Folder             | `Shift+Cmd+G` |
-| Create new folder             | `Shift+Cmd+N` |
-| Show / hide preview pane      | `Shift+Cmd+P` |
-| Hide / show path bar          | `Opt+Cmd+P`   |
-| Hide / show side bar          | `Opt+Cmd+S`   |
-| Hide / show status bar        | `Cmd+/`       |
-| Show View Options             | `Cmd+J`       |
-| Make an alias                 | `Ctrl+Cmd+A`  |
-| New finder window             | `Cmd+N`       |
-| Move selected to Trash        | `Cmd+Del`     |
+| Action                        | Keybind     |
+| ----------------------------- | ----------- |
+| Duplicate selected file       | `⌘ + D`     |
+| Eject selected disk or volume | `⌘ + E`     |
+| Spotlight search              | `⌘ + F`     |
+| Get info                      | `⌘ + I`     |
+| Open Computer                 | `⇧ + ⌘ + C` |
+| Open Desktop folder           | `⇧ + ⌘ + D` |
+| Open Recent folder            | `⇧ + ⌘ + F` |
+| Open Home folder              | `⇧ + ⌘ + H` |
+| Open iCloud folder            | `⇧ + ⌘ + I` |
+| Open Network folder           | `⇧ + ⌘ + K` |
+| Open Documents folder         | `⇧ + ⌘ + O` |
+| Open AirDrop folder           | `⇧ + ⌘ + R` |
+| Open Utilities folder         | `⇧ + ⌘ + U` |
+| Open Downloads folder         | `⌥ + ⌘ + L` |
+| Open Go to Folder             | `⇧ + ⌘ + G` |
+| Create new folder             | `⇧ + ⌘ + N` |
+| Show / hide preview pane      | `⇧ + ⌘ + P` |
+| Hide / show path bar          | `⌥ + ⌘ + P` |
+| Hide / show side bar          | `⌥ + ⌘ + S` |
+| Hide / show status bar        | `⌘ + /`     |
+| Show View Options             | `⌘ + J`     |
+| Make an alias                 | `^ + ⌘ + A` |
+| New finder window             | `⌘ + N`     |
+| Move selected to Trash        | `⌘ + ⌫`     |
 
 ### System
 
 | Action               | Keybind     |
 | -------------------- | ----------- |
-| Show / hide dock     | `Opt+Cmd+D` |
-| Reveal desktop       | `Fn+F11`    |
-| Show all app windows | `Ctrl+Down` |
+| Show / hide dock     | `⌥ + ⌘ + D` |
+| Reveal desktop       | `Fn + F11`  |
+| Show all app windows | `^ + ↓`     |
 
 ### Document
 
-| Action                                         | Keybind             |
-| ---------------------------------------------- | ------------------- |
-| Boldface                                       | `Cmd+B`             |
-| Italicize                                      | `Cmd+I`             |
-| Add link                                       | `Cmd+K`             |
-| Underline                                      | `Cmd+U`             |
-| Show / hide font window                        | `Cmd+T`             |
-| Show / hide word definition                    | `Ctrl+Cmd+D`        |
-| Display Spelling and Grammar window            | `Shift+Cmd+;`       |
-| Find misspelled words                          | `Cmd+;`             |
-| Delete word to left                            | `Opt+Del`           |
-| Delete character to left                       | `Ctrl+H or Del`     |
-| Delete character to right                      | `Ctrl+D or Fn+Del`  |
-| Delete all characters to right                 | `Ctrl+K`            |
-| Page Up key                                    | `Fn+Up`             |
-| Page Down key                                  | `Fn+Down`           |
-| Home key                                       | `Fn+Left`           |
-| End key                                        | `Fn+Right`          |
-| (Select) Move cursor to beginning of document  | `(Shift)+Cmd+Up`    |
-| (Select) Move cursor to end of document        | `(Shift)+Cmd+Down`  |
-| (Select) Move cursor to beginning of line      | `(Shift)+Cmd+Left`  |
-| (Select) Move cursor to end of line            | `(Shift)+Cmd+Right` |
-| (Select) Move cursor to beginning of prev word | `(Shift)+Opt+Left`  |
-| (Select) Move cursor to end of next word       | `(Shift)+Opt+Right` |
-| Select to beginning of paragraph               | `Shift+Opt+Up`      |
-| Select to end of paragraph                     | `Shift+Opt+Down`    |
-| Move cursor to beginning of paragraph          | `Ctrl+A`            |
-| Move cursor to end of paragraph                | `Ctrl+E`            |
-| Swap characters                                | `Ctrl+T`            |
-| Copy Style                                     | `Opt+Cmd+C`         |
-| Paste Style                                    | `Opt+Cmd+V`         |
-| Paste and Match Style                          | `Opt+Shift+Cmd+V`   |
-| Save As                                        | `Shift+Cmd+S`       |
-| Decrease size                                  | `Shift+Cmd+-`       |
-| Increase size                                  | `Shift+Cmd+-`       |
+| Action                                         | Keybind           |
+| ---------------------------------------------- | ----------------- |
+| Boldface                                       | `⌘ + B`           |
+| Italicize                                      | `⌘ + I`           |
+| Add link                                       | `⌘ + K`           |
+| Underline                                      | `⌘ + U`           |
+| Show / hide font window                        | `⌘ + T`           |
+| Show / hide word definition                    | `^ + ⌘ + D`       |
+| Display Spelling and Grammar window            | `⇧ + ⌘ + ;`       |
+| Find misspelled words                          | `⌘ + ;`           |
+| Delete word to left                            | `⌥ + ⌫`           |
+| Delete character to left                       | `^ + H or ⌫`      |
+| Delete character to right                      | `^ + D or Fn + ⌫` |
+| Delete all characters to right                 | `^ + K`           |
+| Page Up key                                    | `Fn + ↑`          |
+| Page Down key                                  | `Fn + ↓`          |
+| Home key                                       | `Fn + ←`          |
+| End key                                        | `Fn + →`          |
+| (Select) Move cursor to beginning of document  | `(⇧) + ⌘ + ↑`     |
+| (Select) Move cursor to end of document        | `(⇧) + ⌘ + ↓`     |
+| (Select) Move cursor to beginning of line      | `(⇧) + ⌘ + ←`     |
+| (Select) Move cursor to end of line            | `(⇧) + ⌘ + →`     |
+| (Select) Move cursor to beginning of prev word | `(⇧) + ⌥ + ←`     |
+| (Select) Move cursor to end of next word       | `(⇧) + ⌥ + →`     |
+| Select to beginning of paragraph               | `⇧ + ⌥ + ↑`       |
+| Select to end of paragraph                     | `⇧ + ⌥ + ↓`       |
+| Move cursor to beginning of paragraph          | `^ + A`           |
+| Move cursor to end of paragraph                | `^ + E`           |
+| Swap characters                                | `^ + T`           |
+| Copy Style                                     | `⌥ + ⌘ + C`       |
+| Paste Style                                    | `⌥ + ⌘ + V`       |
+| Paste and Match Style                          | `⌥ + ⇧ + ⌘ + V`   |
+| Save As                                        | `⇧ + ⌘ + S`       |
+| Decrease size                                  | `⇧ + ⌘ + -`       |
+| Increase size                                  | `⇧ + ⌘ + -`       |
 
 ### Mission Control
 
-| Action                   | Keybind     |
-| ------------------------ | ----------- |
-| Show Mission Control     | `Ctrl+Up`   |
-| Show application windows | `Ctrl+Down` |
-| Show desktop             | `F11`       |
-| Move left a space        | `Ctrl+Left` |
+| Action                   | Keybind |
+| ------------------------ | ------- |
+| Show Mission Control     | `^ + ↑` |
+| Show application windows | `^ + ↓` |
+| Show desktop             | `F11`   |
+| Move left a space        | `^ + ←` |
 
 ## References
 

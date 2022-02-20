@@ -8,137 +8,137 @@
 
 #### Line
 
-| Action                | Sublime               | VS Code              | PyCharm | Emacs | Vi  |          |
-| --------------------- | --------------------- | -------------------- | ------- | ----- | --- | -------- |
-| Swap line up          | `Ctrl + Shift + Up`   | `Alt + Up`           |         |       |     |          |
-| Swap line down        | `Ctrl + Shift + Down` | `Alt + Down`         |         |       |     |          |
-| Delete line           | `Ctrl + Shift + K`    | `Ctrl + Shift + K`   |         |       |     |          |
-| Duplicate line (up)   |                       | `Shift + Alt + Up`   |         |       |     |          |
-| Duplicate line (down) | `Ctrl + Shift + D`    | `Shift + Alt + Down` |         |       |     |          |
-| Select current line   | `Ctrl + L`            | `Ctrl + L`           |         |       |     | :hammer: |
+| Action                | Sublime     | VS Code     | PyCharm | Emacs | Vi  |          |
+| --------------------- | ----------- | ----------- | ------- | ----- | --- | -------- |
+| Swap line up          | `^ + ⇧ + ↑` | `⌥ + ↑`     |         |       |     |          |
+| Swap line down        | `^ + ⇧ + ↓` | `⌥ + ↓`     |         |       |     |          |
+| Delete line           | `^ + ⇧ + K` | `^ + ⇧ + K` |         |       |     |          |
+| Duplicate line (up)   |             | `⇧ + ⌥ + ↑` |         |       |     |          |
+| Duplicate line (down) | `^ + ⇧ + D` | `⇧ + ⌥ + ↓` |         |       |     |          |
+| Select current line   | `^ + L`     | `^ + L`     |         |       |     | :hammer: |
 
 #### Multiple line
 
-| Action                 | Sublime               | VS Code             | PyCharm | Emacs | Vi  |     |
-| ---------------------- | --------------------- | ------------------- | ------- | ----- | --- | --- |
-| Add additional cursors | `Ctrl + Click`        | `Ctrl + Click`      |         |       |     |     |
-| Add previous line      | `Ctrl + Alt + Up`     | `Ctrl + Alt + Up`   |         |       |     |     |
-| Add next line          | `Ctrl + Alt + Down`   | `Ctrl + Alt + Down` |         |       |     |     |
-| Vertical select        | `Shift + R-ClickDrag` | :grey_question:     |         |       |     |     |
-| Split into lines       | `Ctrl + Shift + L`    | :grey_question:     |         |       |     |     |
+| Action                 | Sublime           | VS Code         | PyCharm | Emacs | Vi  |     |
+| ---------------------- | ----------------- | --------------- | ------- | ----- | --- | --- |
+| Add additional cursors | `^ + Click`       | `^ + Click`     |         |       |     |     |
+| Add previous line      | `^ + ⌥ + ↑`       | `^ + ⌥ + ↑`     |         |       |     |     |
+| Add next line          | `^ + ⌥ + ↓`       | `^ + ⌥ + ↓`     |         |       |     |     |
+| Vertical select        | `⇧ + R-ClickDrag` | :grey_question: |         |       |     |     |
+| Split into lines       | `^ + ⇧ + L`       | :grey_question: |         |       |     |     |
 
 > Tip: first select multiple lines and then use
 
 #### Move Cursor
 
-| Action                 | Sublime | VS Code             | PyCharm | Emacs | Vi  |     |
-| ---------------------- | ------- | ------------------- | ------- | ----- | --- | --- |
-| Scroll Line Up or Down |         | `Ctrl + Up or Down` |         |       |     |     |
+| Action                 | Sublime | VS Code      | PyCharm | Emacs | Vi  |     |
+| ---------------------- | ------- | ------------ | ------- | ----- | --- | --- |
+| Scroll Line Up or Down |         | `^ + ↑ or ↓` |         |       |     |     |
 
 #### Select
 
-| Action                   | Sublime         | VS Code            | PyCharm | Emacs | Vi  |          |
-| ------------------------ | --------------- | ------------------ | ------- | ----- | --- | -------- |
-| Select current word      | `Ctrl + D`      | `Ctrl + D`         |         |       |     | :hammer: |
-| Select all of Find Match | :grey_question: | `Ctrl + Shift + L` |         |       |     | :hammer: |
+| Action                   | Sublime         | VS Code     | PyCharm | Emacs | Vi  |          |
+| ------------------------ | --------------- | ----------- | ------- | ----- | --- | -------- |
+| Select current word      | `^ + D`         | `^ + D`     |         |       |     | :hammer: |
+| Select all of Find Match | :grey_question: | `^ + ⇧ + L` |         |       |     | :hammer: |
 
                             `Selection > Expand Selection to Paragraph`
 
 #### Convert Case
 
-| Action     | Sublime              | VS Code    | PyCharm | Emacs | Vi  |     |
-| ---------- | -------------------- | ---------- | ------- | ----- | --- | --- |
-| Upper case | `Ctrl + K, Ctrl + U` | :no_entry: |         |       |     |     |
-| Lower case | `Ctrl + K, Ctrl + L` | :no_entry: |         |       |     |     |
+| Action     | Sublime        | VS Code    | PyCharm | Emacs | Vi  |     |
+| ---------- | -------------- | ---------- | ------- | ----- | --- | --- |
+| Upper case | `^ + K, ^ + U` | :no_entry: |         |       |     |     |
+| Lower case | `^ + K, ^ + L` | :no_entry: |         |       |     |     |
 
                             `Edit > Convert Case > Title Case`
 
 #### Clipboard
 
-| Action           | Sublime            | VS Code | PyCharm | Emacs | Vi  |     |
-| ---------------- | ------------------ | ------- | ------- | ----- | --- | --- |
-| Paste            | `Ctrl + Shift + V` |         |         |       |     |     |
-| Paste and indent | `Ctrl + V`         |         |         |       |     |     |
+| Action           | Sublime     | VS Code | PyCharm | Emacs | Vi  |     |
+| ---------------- | ----------- | ------- | ------- | ----- | --- | --- |
+| Paste            | `^ + ⇧ + V` |         |         |       |     |     |
+| Paste and indent | `^ + V`     |         |         |       |     |     |
 
 ### Find and Replace
 
 #### Find
 
-| Action                 | Sublime                       | VS Code                       | PyCharm | Emacs | Vi  |          |
-| ---------------------- | ----------------------------- | ----------------------------- | ------- | ----- | --- | -------- |
-| Next find              | `Enter or F3`                 | `Enter or F3`                 |         |       |     | :hammer: |
-| Previous find          | `Shift + Enter or Shift + F3` | `Shift + Enter or Shift + F3` |         |       |     | :hammer: |
-| Find in files          | `Ctrl + Shift + F`            | `Ctrl + Shift + F`            |         |       |     |          |
-| Next result            | `F4`                          | `F4`                          |         |       |     |          |
-| Previous result        | `Shift + F4`                  | `Shift + F4`                  |         |       |     |          |
-| Use selection for find | `Ctrl + E`                    | :grey_question:               |         |       |     | :hammer: |
+| Action                 | Sublime           | VS Code           | PyCharm | Emacs | Vi  |          |
+| ---------------------- | ----------------- | ----------------- | ------- | ----- | --- | -------- |
+| Next find              | `↵ or F3`         | `↵ or F3`         |         |       |     | :hammer: |
+| Previous find          | `⇧ + ↵ or ⇧ + F3` | `⇧ + ↵ or ⇧ + F3` |         |       |     | :hammer: |
+| Find in files          | `^ + ⇧ + F`       | `^ + ⇧ + F`       |         |       |     |          |
+| Next result            | `F4`              | `F4`              |         |       |     |          |
+| Previous result        | `⇧ + F4`          | `⇧ + F4`          |         |       |     |          |
+| Use selection for find | `^ + E`           | :grey_question:   |         |       |     | :hammer: |
 
 ##### Quick Find
 
-| Action              | Sublime              | VS Code     | PyCharm | Emacs | Vi  |          |
-| ------------------- | -------------------- | ----------- | ------- | ----- | --- | -------- |
-| Find next selection | `Ctrl + F3`          | `Ctrl + F3` |         |       |     | :hammer: |
-| Quick find all      | `Alt + F3`           |             |         |       |     | :hammer: |
-| Quick add next      | `Ctrl + D`           |             |         |       |     | :hammer: |
-| Quick skip next     | `Ctrl + K, Ctrl + D` |             |         |       |     | :hammer: |
-| Undo selection      | `Ctrl + U`           |             |         |       |     | :hammer: |
+| Action              | Sublime        | VS Code  | PyCharm | Emacs | Vi  |          |
+| ------------------- | -------------- | -------- | ------- | ----- | --- | -------- |
+| Find next selection | `^ + F3`       | `^ + F3` |         |       |     | :hammer: |
+| Quick find all      | `⌥ + F3`       |          |         |       |     | :hammer: |
+| Quick add next      | `^ + D`        |          |         |       |     | :hammer: |
+| Quick skip next     | `^ + K, ^ + D` |          |         |       |     | :hammer: |
+| Undo selection      | `^ + U`        |          |         |       |     | :hammer: |
 
 #### Replace
 
-| Action                    | Sublime            | VS Code            | PyCharm | Emacs | Vi  |     |
-| ------------------------- | ------------------ | ------------------ | ------- | ----- | --- | --- |
-| Incremental find          | `Ctrl + I`         | :grey_question:    |         |       |     |     |
-| Replace next              | `Ctrl + Shift + H` | :grey_question:    |         |       |     |     |
-| Replace in files          | :grey_question:    | `Ctrl + Shift + H` |         |       |     |     |
-| Use selection for replace | `Ctrl + Shift + E` | :grey_question:    |         |       |     |     |
+| Action                    | Sublime         | VS Code         | PyCharm | Emacs | Vi  |     |
+| ------------------------- | --------------- | --------------- | ------- | ----- | --- | --- |
+| Incremental find          | `^ + I`         | :grey_question: |         |       |     |     |
+| Replace next              | `^ + ⇧ + H`     | :grey_question: |         |       |     |     |
+| Replace in files          | :grey_question: | `^ + ⇧ + H`     |         |       |     |     |
+| Use selection for replace | `^ + ⇧ + E`     | :grey_question: |         |       |     |     |
 
 ### Quick Access
 
-| Action               | Sublime            | VS Code            | PyCharm | Emacs | Vi  |          |
-| -------------------- | ------------------ | ------------------ | ------- | ----- | --- | -------- |
-| Goto anything        | `Ctrl + P`         | `Ctrl + P`         |         |       |     | :hammer: |
-| Command palette      | `Ctrl + Shift + P` | `Ctrl + Shift + P` |         |       |     | :hammer: |
-| Quick switch project | `Ctrl + Alt + P`   | `Ctrl + Alt + P`   |         |       |     |          |
-| Fuzzy search         | `#`                | `Ctrl + P + #`     |         |       |     |          |
-| Line number          | `:`                | `Ctrl + P + :`     |         |       |     |          |
-| Symbol               | `@`                |                    |         |       |     |          |
+| Action               | Sublime     | VS Code     | PyCharm | Emacs | Vi  |          |
+| -------------------- | ----------- | ----------- | ------- | ----- | --- | -------- |
+| Goto anything        | `^ + P`     | `^ + P`     |         |       |     | :hammer: |
+| Command palette      | `^ + ⇧ + P` | `^ + ⇧ + P` |         |       |     | :hammer: |
+| Quick switch project | `^ + ⌥ + P` | `^ + ⌥ + P` |         |       |     |          |
+| Fuzzy search         | `#`         | `^ + P + #` |         |       |     |          |
+| Line number          | `:`         | `^ + P + :` |         |       |     |          |
+| Symbol               | `@`         |             |         |       |     |          |
 
 ### Files
 
-| Action                  | Sublime                     | VS Code            | PyCharm | Emacs | Vi  |                                              |
-| ----------------------- | --------------------------- | ------------------ | ------- | ----- | --- | -------------------------------------------- |
-| New file (advanced)     | `Ctrl + Alt + N`            |                    |         |       |     | :hammer: [AdvancedNewFile](#advancednewfile) |
-| Reopen closed file      | `Ctrl + Shift + T`          | `Ctrl + Shift + T` |         |       |     | :hammer:                                     |
-| Open current file again | `File > New View Into File` |                    |         |       |     |                                              |
+| Action                  | Sublime                     | VS Code     | PyCharm | Emacs | Vi  |                                              |
+| ----------------------- | --------------------------- | ----------- | ------- | ----- | --- | -------------------------------------------- |
+| New file (advanced)     | `^ + ⌥ + N`                 |             |         |       |     | :hammer: [AdvancedNewFile](#advancednewfile) |
+| Reopen closed file      | `^ + ⇧ + T`                 | `^ + ⇧ + T` |         |       |     | :hammer:                                     |
+| Open current file again | `File > New View Into File` |             |         |       |     |                                              |
 
 #### Goto
 
-| Action                                        | Sublime               | VS Code              | PyCharm | Emacs | Vi  |     |
-| --------------------------------------------- | --------------------- | -------------------- | ------- | ----- | --- | --- |
-| Go to file                                    |                       | `Ctrl + P`           |         |       |     |     |
-| Switch file                                   | `Alt + 1-9`           | `Alt + 1-9`          |         |       |     |     |
-| Switch file next or previous                  | `Ctrl + PgUp or PgDn` |                      |         |       |     |     |
-| Cycle forward open tabs                       | `Ctrl + Tab`          | `Ctrl + Tab`         |         |       |     |     |
-| Cycle backward open tabs                      | `Ctrl + Shift + Tab`  | `Ctrl + Shift + Tab` |         |       |     |     |
-| Palette of open files                         | `Ctrl + P`            |                      |         |       |     |     |
-| Focus on sidebar                              | `Ctrl + 0`            | `Ctrl + 0`           |         |       |     |     |
-| Focus back to edit area when focus on sidebar | `Esc`                 |                      |         |       |     |     |
-| Reveal in sidebar                             | `Ctrl + Alt + S`      |                      |         |       |     |     |
+| Action                                        | Sublime      | VS Code     | PyCharm | Emacs | Vi  |     |
+| --------------------------------------------- | ------------ | ----------- | ------- | ----- | --- | --- |
+| Go to file                                    |              | `^ + P`     |         |       |     |     |
+| Switch file                                   | `⌥ + 1-9`    | `⌥ + 1-9`   |         |       |     |     |
+| Switch file next or previous                  | `^ + ⇞ or ⇟` |             |         |       |     |     |
+| Cycle forward open tabs                       | `^ + ⇥`      | `^ + ⇥`     |         |       |     |     |
+| Cycle backward open tabs                      | `^ + ⇧ + ⇥`  | `^ + ⇧ + ⇥` |         |       |     |     |
+| Palette of open files                         | `^ + P`      |             |         |       |     |     |
+| Focus on sidebar                              | `^ + 0`      | `^ + 0`     |         |       |     |     |
+| Focus back to edit area when focus on sidebar | `⎋`          |             |         |       |     |     |
+| Reveal in sidebar                             | `^ + ⌥ + S`  |             |         |       |     |     |
 
 ### Layout
 
-| Action      | Sublime           | VS Code | PyCharm | Emacs | Vi  |     |
-| ----------- | ----------------- | ------- | ------- | ----- | --- | --- |
-| Single      | `Alt + Shift + 1` |         |         |       |     |     |
-| Two columns | `Alt + Shift + 2` |         |         |       |     |     |
-| Four grid   | `Alt + Shift + 4` |         |         |       |     |     |
+| Action      | Sublime     | VS Code | PyCharm | Emacs | Vi  |     |
+| ----------- | ----------- | ------- | ------- | ----- | --- | --- |
+| Single      | `⌥ + ⇧ + 1` |         |         |       |     |     |
+| Two columns | `⌥ + ⇧ + 2` |         |         |       |     |     |
+| Four grid   | `⌥ + ⇧ + 4` |         |         |       |     |     |
 
 ### Console
 
-| Action               | Sublime    | VS Code    | PyCharm | Emacs | Vi  |     |
-| -------------------- | ---------- | ---------- | ------- | ----- | --- | --- |
-| Show/Hide Console    | `Ctrl + '` | `Ctrl + J` |         |       |     |     |
-| Show/Hide Side Panel |            | `Ctrl + B` |         |       |     |     |
+| Action               | Sublime | VS Code | PyCharm | Emacs | Vi  |     |
+| -------------------- | ------- | ------- | ------- | ----- | --- | --- |
+| Show/Hide Console    | `^ + '` | `^ + J` |         |       |     |     |
+| Show/Hide Side Panel |         | `^ + B` |         |       |     |     |
 
 ### Other
 

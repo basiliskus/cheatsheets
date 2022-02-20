@@ -36,6 +36,7 @@
 
 ## Other Resources
 
+- [ joshwyatt's Keyboard Shortcuts](https://github.com/joshwyatt/keyboard_shortcuts)
 - [Devhints](https://devhints.io)
 - [Awesome Cheatsheets](https://lecoupa.github.io/awesome-cheatsheets/)
 
@@ -43,7 +44,31 @@
 
 - [Template](template-chtsht.md)
 
-## Legend
+## Legends
+
+| Symbol        | Desctiption |
+| ------------- | ----------- |
+| Up            | ↑           |
+| Down          | ↓           |
+| Right         | →           |
+| Left          | ←           |
+| Page Up       | ⇞           |
+| Page Down     | ⇟           |
+| Ctrl          | ^           |
+| Shift         | ⇧           |
+| Alt/Opt       | ⌥           |
+| Del/Backspace | ⌫           |
+| Space         | ⎵           |
+| Esc           | ⎋           |
+| Tab           | ⇥           |
+| Home          | ↖           |
+| Pause / Break | ⎉ / ⎊       |
+| End           | ↘           |
+| Return/Enter  | ↵           |
+| Windows Key   | ❖           |
+| Cmd           | ⌘           |
+
+⇥
 
 | Emoji              | Description            |
 | ------------------ | ---------------------- |
@@ -52,3 +77,8 @@
 | :left_right_arrow: | Modified               |
 | :no_entry:         | Not working or Missing |
 | :grey_question:    | Need to check          |
+
+## References
+
+- [Keyboard Symbols](http://xahlee.info/comp/unicode_computing_symbols.html)
+- [Github Emoji Markdown List](https://gist.github.com/rxaviers/7360908)

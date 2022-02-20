@@ -4,72 +4,72 @@
 
 ### System
 
-| Action             | Keybind           |
-| ------------------ | ----------------- |
-| System properties  | `Win+Pause/Break` |
-| Task manager       | `Ctrl+Shift+Esc`  |
-| Lock               | `Win+L`           |
-| Windows Settings   | `Win+I`           |
-| Search             | `Win+S`           |
-| Open the clipboard | `Win+V`           |
+| Action             | Keybind     |
+| ------------------ | ----------- |
+| System properties  | `❖ + ⎉ / ⎊` |
+| Task manager       | `^ + ⇧ + ⎋` |
+| Lock               | `❖ + L`     |
+| Windows Settings   | `❖ + I`     |
+| Search             | `❖ + S`     |
+| Open the clipboard | `❖ + V`     |
 
 ### File Explorer
 
-| Action                                | Keybind     |
-| ------------------------------------- | ----------- |
-| Open Explorer                         | `Win+E`     |
-| When in a folder, one folder level up | `Backspace` |
+| Action                                | Keybind |
+| ------------------------------------- | ------- |
+| Open Explorer                         | `❖ + E` |
+| When in a folder, one folder level up | `⌫`     |
 
 ### Navigation
 
-| Action                            | Keybind   |
-| --------------------------------- | --------- |
-| Focus in the notification area    | `Win+B`   |
-| Cycle through apps on the taskbar | `Win+T`   |
-| Temporarily peek at the desktop   | `Win+,`   |
-| Open Task view                    | `Win+Tab` |
+| Action                            | Keybind |
+| --------------------------------- | ------- |
+| Focus in the notification area    | `❖ + B` |
+| Cycle through apps on the taskbar | `❖ + T` |
+| Temporarily peek at the desktop   | `❖ + ,` |
+| Open Task view                    | `❖ + ⇥` |
 
 ### Taskbar
 
-| Action                                                            | Keybind              |
-| ----------------------------------------------------------------- | -------------------- |
-| Start app pinned to taskbar by position                           | `Win+1-9`            |
-| Start new instance of app pinned to taskbar by position           | `Win+Shift+1-9`      |
-| Start new instance of app pinned to taskbar by position, as admin | `Win+Ctrl+Shift+1-9` |
-| Open Jump List for app pinned to taskbar by position              | `Win+Alt+1-9`        |
+| Action                                                            | Keybind           |
+| ----------------------------------------------------------------- | ----------------- |
+| Start app pinned to taskbar by position                           | `❖ + 1-9`         |
+| Start new instance of app pinned to taskbar by position           | `❖ + ⇧ + 1-9`     |
+| Start new instance of app pinned to taskbar by position, as admin | `❖ + ^ + ⇧ + 1-9` |
+| Open Jump List for app pinned to taskbar by position              | `❖ + ⌥ + 1-9`     |
 
 ### Applications
 
-| Action          | Keybind     |
-| --------------- | ----------- |
-| Run application | `Win+R`     |
-| Menu            | `Shift+F10` |
+| Action          | Keybind   |
+| --------------- | --------- |
+| Run application | `❖ + R`   |
+| Menu            | `⇧ + F10` |
 
 ### Screenshot
 
-| Action                                   | Keybind       |
-| ---------------------------------------- | ------------- |
-| Open Snip & Sketch screen selection tool | `Win+Shift+S` |
+| Action                                   | Keybind     |
+| ---------------------------------------- | ----------- |
+| Open Snip & Sketch screen selection tool | `❖ + ⇧ + S` |
 
 ### Windows
 
-| Action                                                                | Keybind                |
-| --------------------------------------------------------------------- | ---------------------- |
-| Maximize window                                                       | `Alt+Space+X`          |
-| Minimize window or Move app/window to another monitor                 | `Alt+Space+N`          |
-| Minimize all windows                                                  | `Win+M`                |
-| Remaximize all windows                                                | `Win+Shift+W`          |
-| Toggle minimize/maximize windows                                      | `Win+D`                |
-| Move window                                                           | `Alt+Space+M`          |
-| Lower window                                                          | `Alt+Escape`           |
-| Maximize window                                                       | `Win+Up`               |
-| Remove current app from screen or minimize the desktop window         | `Win+Down`             |
-| Maximize the app or desktop window to the left side of the screen     | `Win+Left`             |
-| Maximize the app or desktop window to the right side of the screen    | `Win+Right`            |
-| Minimize all except active window (restores all on second stroke)     | `Win+Home`             |
-| Stretch the desktop window to the top and bottom of the screen        | `Win+Shift+Up`         |
-| Restore/minimize active desktop windows vertically, maintaining width | `Win+Shift+Down`       |
-| Move an app or window in the desktop from one monitor to another      | `Win+Shift+Left/Right` |
+| Action                                                                | Keybind         |
+| --------------------------------------------------------------------- | --------------- |
+| Maximize window                                                       | `⌥ + ⎵ + X`     |
+| Minimize window or Move app/window to another monitor                 | `⌥ + ⎵ + N`     |
+| Minimize all windows                                                  | `❖ + M`         |
+| Remaximize all windows                                                | `❖ + ⇧ + W`     |
+| Toggle minimize/maximize windows                                      | `❖ + D`         |
+| Move window                                                           | `⌥ + ⎵ + M`     |
+| Lower window                                                          | `⌥ + ⎋`         |
+| Maximize window                                                       | `❖ + ↑`         |
+| Remove current app from screen or minimize the desktop window         | `❖ + ↓`         |
+| Maximize the app or desktop window to the left side of the screen     | `❖ + ←`         |
+| Maximize the app or desktop window to the right side of the screen    | `❖ + →`         |
+| Minimize all except active window (restores all on second stroke)     | `❖ + ↖`         |
+| Stretch the desktop window to the top and bottom of the screen        | `❖ + ⇧ + ↑`     |
+| Restore/minimize active desktop windows vertically, maintaining width | `❖ + ⇧ + ↓`     |
+| Move an app or window in the desktop from one monitor to another      | `❖ + ⇧ + ← / →` |
 
 ## References
 
