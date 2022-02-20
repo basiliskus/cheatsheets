@@ -8,3 +8,7 @@
 - [PEP8 Cheatsheet](https://gist.github.com/RichardBronosky/454964087739a449da04)
 
 ## References
+
+## Resources
+
+- [Python - Devhints](https://devhints.io/python)

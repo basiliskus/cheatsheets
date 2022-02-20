@@ -401,3 +401,8 @@ https://github.com/SublimeText/Origami
 
 - https://www.linkedin.com/learning/learning-sublime-text-3
 - https://gist.github.com/mrliptontea/4c793ebdf72ed145bcbf
+
+## Resources
+
+- [Sublime Text - Devhints](https://devhints.io/sublime-text)
+- [Sublime Text 3 - Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/sublime_text.md)

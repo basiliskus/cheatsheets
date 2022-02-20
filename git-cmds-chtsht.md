@@ -272,3 +272,8 @@ Get help on the command line
 - https://www.git-tower.com/blog/git-cheat-sheet/
 - https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.md
 - https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+
+## Resources
+
+- [Git Tricks - Devhints](https://devhints.io/git-tricks)
+- [Git - Awesome Cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/tools/git.sh)

@@ -29,11 +29,17 @@
 
 - [Python](python-syntax-chtsht.md)
 - [Markdown](markdown-syntax-chtsht.md)
+- [Bash](bash-syntax-chtsht.md)
 - Regex
 
   - [Python](python-regex-chtsht.md)
 
-## Other
+## Other Resources
+
+- [Devhints](https://devhints.io)
+- [Awesome Cheatsheets](https://lecoupa.github.io/awesome-cheatsheets/)
+
+## Template
 
 - [Template](template-chtsht.md)
 
