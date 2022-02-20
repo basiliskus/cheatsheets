@@ -4,16 +4,18 @@
 
 ### Common
 
-`Shift + Shift` Search Everywhere  
-`Shift + Cmd + A` Find Action  
-`Opt + Return` Show Context Action  
-`F2` Navigate between code issues  
-`Shift + F2` Jump to the next or previous highlighted error  
-`Cmd + E` View recent files  
-`Opt + Up or Opt + Down` Extend/Shrink selection  
-`Cmd + /` Add/remove line or block comment  
-`Opt + Cmd + /` Comment out a line or block of code  
-`Opt + F7` Find Usages
+| Action                                         | Keybind              |
+| ---------------------------------------------- | -------------------- |
+| Search Everywhere                              | `Shift+Shift`        |
+| Find Action                                    | `Shift+Cmd+A`        |
+| Show Context Action                            | `Opt+Return`         |
+| Navigate between code issues                   | `F2`                 |
+| Jump to the next or previous highlighted error | `Shift+F2`           |
+| View recent files                              | `Cmd+E`              |
+| Extend/Shrink selection                        | `Opt+Up or Opt+Down` |
+| Add/remove line or block comment               | `Cmd+/`              |
+| Comment out a line or block of code            | `Opt+Cmd+/`          |
+| Find Usages                                    | `Opt+F7`             |
 
 ### Create and Edit
 

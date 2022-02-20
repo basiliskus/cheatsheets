@@ -64,22 +64,26 @@
 
 ### Files
 
-`Ctrl + O`: Open new file  
-`Ctrl + N`: New file  
-`Ctrl + Alt + N` New file (advanced) :hammer: ([AdvancedNewFile](#advancednewfile))  
-`Ctrl + S`: Save file  
-`Ctrl + W`: Close current file :hammer:  
-`Ctrl + Shift + T`: Reopen closed file :hammer:  
-`File > New View Into File` Open current file again
+| Action                  | Keybind                     |                                              |
+| ----------------------- | --------------------------- | -------------------------------------------- |
+| Open new file           | `Ctrl + O`                  |                                              |
+| New file                | `Ctrl + N`                  |                                              |
+| New file (advanced)     | `Ctrl + Alt + N`            | :hammer: [AdvancedNewFile](#advancednewfile) |
+| Save file               | `Ctrl + S`                  |                                              |
+| Close current file      | `Ctrl + W`                  | :hammer:                                     |
+| Reopen closed file      | `Ctrl + Shift + T`          | :hammer:                                     |
+| Open current file again | `File > New View Into File` |                                              |
 
 ### Quick Access
 
-`Ctrl + P`: Goto anything :hammer:  
- `#`: Fuzzy search  
- `:`: Line number  
- `@`: Symbol  
-`Ctrl + Alt + P`: Quick switch project  
-`Ctrl + Shift + P`: Command palette :hammer:
+| Action               | Keybind            |          |
+| -------------------- | ------------------ | -------- |
+| Goto anything        | `Ctrl + P`         | :hammer: |
+| Fuzzy search         | `#`                |          |
+| Line number          | `:`                |          |
+| Symbol               | `@`                |          |
+| Quick switch project | `Ctrl + Alt + P`   |          |
+| Command palette      | `Ctrl + Shift + P` | :hammer: |
 
 - Access commands quickly
 - Quick way to learn key bindings for commands
@@ -89,231 +93,289 @@
 
 #### Line
 
-`Ctrl + Shift + Up`: Swap line up  
-`Ctrl + Shift + Down`: Swap line down  
-`Ctrl + Shift + K`: Delete line  
-`Ctrl + Shift + D`: Duplicate line
+| Action         | Keybind               |     |
+| -------------- | --------------------- | --- |
+| Swap line up   | `Ctrl + Shift + Up`   |     |
+| Swap line down | `Ctrl + Shift + Down` |     |
+| Delete line    | `Ctrl + Shift + K`    |     |
+| Duplicate line | `Ctrl + Shift + D`    |     |
 
 #### Multiple line
 
-`Ctrl + Click`: Add additional cursors  
-`Ctrl + Alt + Up`: Add previous line  
-`Ctrl + Alt + Down`: Add next line  
-`Shift + R-Click Drag`: Vertical select  
-`Ctrl + Shift + L`: Split into lines
+| Action                 | Keybind                |     |
+| ---------------------- | ---------------------- | --- |
+| Add additional cursors | `Ctrl + Click`         |     |
+| Add previous line      | `Ctrl + Alt + Up`      |     |
+| Add next line          | `Ctrl + Alt + Down`    |     |
+| Vertical select        | `Shift + R-Click Drag` |     |
+| Split into lines       | `Ctrl + Shift + L`     |     |
 
 > Tip: first select multiple lines and then use
 
 #### Word
 
-`Ctrl + Left or Right`: Move one word at a time  
-`Ctrl + Shift + Left or Right`: Select one word at a time  
-`Ctrl + D`: Select current word :hammer:  
-`Ctrl + L`: Select current line :hammer:  
-`Selection > Expand Selection to Paragraph`:
+| Action                    | Keybind                        |          |
+| ------------------------- | ------------------------------ | -------- |
+| Move one word at a time   | `Ctrl + Left or Right`         |          |
+| Select one word at a time | `Ctrl + Shift + Left or Right` |          |
+| Select current word       | `Ctrl + D`                     | :hammer: |
+| Select current line       | `Ctrl + L`                     | :hammer: |
+
+`Selection > Expand Selection to Paragraph`
 
 #### Convert Case
 
-`Ctrl + K, Ctrl + U`: Upper case  
-`Ctrl + K, Ctrl + L`: Lower case  
-`Edit > Convert Case > Title Case`:
+| Action     | Keybind              |     |
+| ---------- | -------------------- | --- |
+| Upper case | `Ctrl + K, Ctrl + U` |     |
+| Lower case | `Ctrl + K, Ctrl + L` |     |
+
+`Edit > Convert Case > Title Case`
 
 #### Clipboard
 
-`Ctrl + Shift + V`: Paste :left_right_arrow: `Ctrl + V`  
-`Ctrl + V`: Paste and indent :left_right_arrow: `Ctrl + Shift + V`
+| Action           | Keybind            |                                       |
+| ---------------- | ------------------ | ------------------------------------- |
+| Paste            | `Ctrl + Shift + V` | :left_right_arrow: `Ctrl + V`         |
+| Paste and indent | `Ctrl + V`         | :left_right_arrow: `Ctrl + Shift + V` |
 
 #### Bookmarks
 
-`Ctrl + F2`: Toggle bookmark  
-`F2`: Next bookmark  
-`Shift + F2`: Prev bookmark  
-`Ctrl + Shift + F2`: Clear bookmarks
+| Action          | Keybind             |     |
+| --------------- | ------------------- | --- |
+| Toggle bookmark | `Ctrl + F2`         |     |
+| Next bookmark   | `F2`                |     |
+| Prev bookmark   | `Shift + F2`        |     |
+| Clear bookmarks | `Ctrl + Shift + F2` |     |
 
 ### Code
 
 #### Goto
 
-`Ctrl + M`: Jump to matching bracket :hammer:  
-`Ctrl + Alt + Left or Right`: Jump to next/prev place ([Emmet](#emmet))  
-`Ctrl + Alt + , or .`: Selects next/prev tag ([Emmet](#emmet))  
-`Ctrl + G`: Go to line  
-`Ctrl + R`: Go to symbol  
-`Ctrl + Shift + R`: Go to symbol in project :no*entry_sign:  
-`F12`: Go to definition :warning: \_replace with `Ctrl + Alt + Down`?*  
-`Alt + -`: Jump back
+| Action                   | Keybind                      |                                            |
+| ------------------------ | ---------------------------- | ------------------------------------------ |
+| Jump to matching bracket | `Ctrl + M`                   | :hammer:                                   |
+| Jump to next/prev place  | `Ctrl + Alt + Left or Right` | [Emmet](#emmet)                            |
+| Selects next/prev tag    | `Ctrl + Alt + , or .`        | [Emmet](#emmet)                            |
+| Go to line               | `Ctrl + G`                   |                                            |
+| Go to symbol             | `Ctrl + R`                   |                                            |
+| Go to symbol in project  | `Ctrl + Shift + R`           | :no_entry_sign:                            |
+| Go to definition         | `F12`                        | :warning: replace with `Ctrl + Alt + Down` |
+| Jump back                | `Alt + -`                    |                                            |
 
 #### Expand Selection
 
-`Ctrl + Shift + A`: Expand selection to tag :hammer:  
-`Ctrl + Shift + M`: Expand selection to bracket :hammer:  
-`Ctrl + Shift + J`: Expand selection to indentation  
-`Ctrl + Shift + Space`: Expand selection to scope
+| Action                          | Keybind                |          |
+| ------------------------------- | ---------------------- | -------- |
+| Expand selection to tag         | `Ctrl + Shift + A`     | :hammer: |
+| Expand selection to bracket     | `Ctrl + Shift + M`     | :hammer: |
+| Expand selection to indentation | `Ctrl + Shift + J`     |          |
+| Expand selection to scope       | `Ctrl + Shift + Space` |          |
 
 #### Indentation
 
-`Ctrl + ] or [`: Indent or unindent line :hammer:  
-`F12`: Indent file :warning:  
+| Action                  | Keybind         |           |
+| ----------------------- | --------------- | --------- |
+| Indent or unindent line | `Ctrl + ] or [` | :hammer:  |
+| Indent file             | `F12`           | :warning: |
+
 `Edit > Line > Reindent`
 
 #### Snippets
 
-`#`: Add 'id' property to tag ([Emmet](#emmet))  
-`.`: Add 'class' property to tag ([Emmet](#emmet))
+| Action                      | Keybind |                 |
+| --------------------------- | ------- | --------------- |
+| Add 'id' property to tag    | `#`     | [Emmet](#emmet) |
+| Add 'class' property to tag | `.`     | [Emmet](#emmet) |
 
 #### Folding
 
-`Ctrl + Shift + [`: Fold  
-`Ctrl + Shift + ]`: Unfold  
-`Ctrl + K, Ctrl J`: Unfold all  
-`Ctrl + K, Ctrl + 1-9`: Fold levels
+| Action      | Keybind                |     |
+| ----------- | ---------------------- | --- |
+| Fold        | `Ctrl + Shift + [`     |     |
+| Unfold      | `Ctrl + Shift + ]`     |     |
+| Unfold all  | `Ctrl + K, Ctrl J`     |     |
+| Fold levels | `Ctrl + K, Ctrl + 1-9` |     |
 
 #### Comment
 
-`Ctrl + /`: Toggle comment :hammer:  
-`Ctrl + Shift + /`: Toggle block comment :hammer:
+| Action               | Keybind            |          |
+| -------------------- | ------------------ | -------- |
+| Toggle comment       | `Ctrl + /`         | :hammer: |
+| Toggle block comment | `Ctrl + Shift + /` | :hammer: |
 
 #### Tag
 
-`Alt + .`: Close tag  
-`Ctrl + Shift + A`: Expand selection to tag  
-`Alt + Shift + W`: Wrap selection with tag
+| Action                  | Keybind            |     |
+| ----------------------- | ------------------ | --- |
+| Close tag               | `Alt + .`          |     |
+| Expand selection to tag | `Ctrl + Shift + A` |     |
+| Wrap selection with tag | `Alt + Shift + W`  |     |
 
 #### Hyperlinks
 
-`Ctrl + Alt + U` Open url, file, folder or search for word :hammer: ([Open URL](#open-url))  
-`Ctrl + Alt + L` Wrao word / selection as link ([Hyperlink Helper](#hyperlink-helper))  
-`Ctrl + Alt + Shift + L` Lookup with Google & link ([Hyperlink Helper](#hyperlink-helper))
+| Action                                    | Keybind                  |                                       |
+| ----------------------------------------- | ------------------------ | ------------------------------------- |
+| Open url, file, folder or search for word | `Ctrl + Alt + U`         | :hammer: [Open URL](#open-url)        |
+| Wrao word / selection as link             | `Ctrl + Alt + L`         | [Hyperlink Helper](#hyperlink-helper) |
+| Lookup with Google & link                 | `Ctrl + Alt + Shift + L` | [Hyperlink Helper](#hyperlink-helper) |
 
 ### File Navigation
 
 #### Goto
 
-`Alt + 1-9`: Switch file  
-`Ctrl + PgUp or PgDn`: Switch file next or previous  
-`Ctrl + Tab`: Cycle forward open tabs  
-`Ctrl + Shift + Tab`: Cycle backward open tabs  
-`Ctrl + P`: Palette of open files  
-`Ctrl + 0`: Focus on sidebar  
-`Esc`: Focus back to edit area when focus on sidebar  
-`Ctrl + Alt + S` Reveal in sidebar
+| Action                                        | Keybind               |     |
+| --------------------------------------------- | --------------------- | --- |
+| Switch file                                   | `Alt + 1-9`           |     |
+| Switch file next or previous                  | `Ctrl + PgUp or PgDn` |     |
+| Cycle forward open tabs                       | `Ctrl + Tab`          |     |
+| Cycle backward open tabs                      | `Ctrl + Shift + Tab`  |     |
+| Palette of open files                         | `Ctrl + P`            |     |
+| Focus on sidebar                              | `Ctrl + 0`            |     |
+| Focus back to edit area when focus on sidebar | `Esc`                 |     |
+| Reveal in sidebar                             | `Ctrl + Alt + S`      |     |
 
 #### Tab groups
 
-`Ctrl + 1-9`: Navigate tab groups  
-`Ctrl + K, Ctrl + Up`: Move file to new group  
-`Ctrl + K, Ctrl + Down`: Close group
+| Action                 | Keybind                 |     |
+| ---------------------- | ----------------------- | --- |
+| Navigate tab groups    | `Ctrl + 1-9`            |     |
+| Move file to new group | `Ctrl + K, Ctrl + Up`   |     |
+| Close group            | `Ctrl + K, Ctrl + Down` |     |
 
 ##### Origami
 
-`Ctrl + K, Arrow`: Move focus to the pane in that direction
-`Ctrl + K, Shift + Arrow`: Move the current file to the destination
-`Ctrl + K, Alt + Arrow` Clone the current file to the destination
-`Ctrl + K, Ctrl + Arrow`: Create an adjacent pane
-`Ctrl + K, Ctrl + Shift + Arrow`: Destroy an adjacent pane
-`Ctrl + K, Ctrl + Z`: Zoom the current pane so it takes up 90% of the screen
-`Ctrl + K, Ctrl + Shift + Z`: Unzoom (equally space all panes)
-`Ctrl + K, Ctrl + R`: Adjust the top and bottom separator
-`Ctrl + K, Ctrl + C`: Adjust the left and right separator
+| Action                                                 | Keybind                          |     |
+| ------------------------------------------------------ | -------------------------------- | --- |
+| Move focus to the pane in that direction               | `Ctrl + K, Arrow`                |     |
+| Move the current file to the destination               | `Ctrl + K, Shift + Arrow`        |     |
+| Clone the current file to the destination              | `Ctrl + K, Alt + Arrow`          |     |
+| Create an adjacent pane                                | `Ctrl + K, Ctrl + Arrow`         |     |
+| Destroy an adjacent pane                               | `Ctrl + K, Ctrl + Shift + Arrow` |     |
+| Zoom the current pane so it takes up 90% of the screen | `Ctrl + K, Ctrl + Z`             |     |
+| Unzoom (equally space all panes)                       | `Ctrl + K, Ctrl + Shift + Z`     |     |
+| Adjust the top and bottom separator                    | `Ctrl + K, Ctrl + R`             |     |
+| Adjust the left and right separator                    | `Ctrl + K, Ctrl + C`             |     |
 
 ### Find and Replace
 
-`Ctrl + F`: Find  
-`Enter or F3`: Next find :hammer:  
-`Shift + Enter or Shift + F3`: Previous find :hammer:  
-`Ctrl + E`: Use selection for find :hammer:
-
-`Ctrl + I`: Incremental find
-
-`Ctrl + H`: Find and replace  
-`Ctrl + Shift + H`: Replace next  
-`Ctrl + Shift + E`: Use selection for replace
-
-`Ctrl + Shift + F`: Find in files :hammer:  
-`F4`: Next result  
-`Shift + F4`: Previous result
+| Action                    | Keybind                       |          |
+| ------------------------- | ----------------------------- | -------- |
+| Find                      | `Ctrl + F`                    |          |
+| Next find                 | `Enter or F3`                 | :hammer: |
+| Previous find             | `Shift + Enter or Shift + F3` | :hammer: |
+| Use selection for find    | `Ctrl + E`                    | :hammer: |
+| Incremental find          | `Ctrl + I`                    |          |
+| Find and replace          | `Ctrl + H`                    |          |
+| Replace next              | `Ctrl + Shift + H`            |          |
+| Use selection for replace | `Ctrl + Shift + E`            |          |
+| Find in files             | `Ctrl + Shift + F`            | :hammer: |
+| Next result               | `F4`                          |          |
+| Previous result           | `Shift + F4`                  |          |
 
 > Tip: turn off "Use Buffer" to see results in botton panel
 
 #### Quick Find
 
-`Ctrl + F3`: Quick find :hammer:  
-`Alt + F3`: Quick find all :hammer:  
-`Ctrl + D`: Quick add next :hammer:  
-`Ctrl + K, Ctrl + D`: Quick skip next :hammer:  
-`Ctrl + U`: Undo selection :hammer:
+| Action          | Keybind              |          |
+| --------------- | -------------------- | -------- |
+| Quick find      | `Ctrl + F3`          | :hammer: |
+| Quick find all  | `Alt + F3`           | :hammer: |
+| Quick add next  | `Ctrl + D`           | :hammer: |
+| Quick skip next | `Ctrl + K, Ctrl + D` | :hammer: |
+| Undo selection  | `Ctrl + U`           | :hammer: |
 
 ### View
 
 #### Font Size
 
-`Ctrl + =`: Larger font  
-`Ctrl + -`: Smaller font
+| Action       | Keybind    |     |
+| ------------ | ---------- | --- |
+| Larger font  | `Ctrl + =` |     |
+| Smaller font | `Ctrl + -` |     |
 
 #### Layout
 
-`Alt + Shift + 1`: Single  
-`Alt + Shift + 2`: Two columns  
-`Alt + Shift + 4`: Four grid
+| Action      | Keybind           |     |
+| ----------- | ----------------- | --- |
+| Single      | `Alt + Shift + 1` |     |
+| Two columns | `Alt + Shift + 2` |     |
+| Four grid   | `Alt + Shift + 4` |     |
 
 ### Console
 
-`Ctrl + '` Show Console
+| Action       | Keybind    |     |
+| ------------ | ---------- | --- |
+| Show Console | `Ctrl + '` |     |
 
 #### Useful commands
 
-Show command actions
-`sublime.log_commands(True)`
+| Action               | Keybind                      |     |
+| -------------------- | ---------------------------- | --- |
+| Show command actions | `sublime.log_commands(True)` |     |
 
 ### Automation
 
 #### Autocomplete
 
-`Ctrl + Spacebar`: Auto complete list  
-`Tab`: Auto complete commit
+| Action               | Keybind           |     |
+| -------------------- | ----------------- | --- |
+| Auto complete list   | `Ctrl + Spacebar` |     |
+| Auto complete commit | `Tab`             |     |
 
 #### Snippets
 
-`Ctrl + Shift + P + "snip"`: Displays available snippets
+| Action                      | Keybind                     |     |
+| --------------------------- | --------------------------- | --- |
+| Displays available snippets | `Ctrl + Shift + P + "snip"` |     |
 
 #### Macros
 
-`Ctrl + Q`: Start/end macro recording  
-`Ctrl + Shift + Q`: Playback macro
+| Action                    | Keybind            |     |
+| ------------------------- | ------------------ | --- |
+| Start/end macro recording | `Ctrl + Q`         |     |
+| Playback macro            | `Ctrl + Shift + Q` |     |
 
 ### Utilities
 
-`Ctrl + Shift + C`: Open system color picker ([SideBarEnhacements](#sidebarenhacements))
+| Action                   | Keybind            |                                           |
+| ------------------------ | ------------------ | ----------------------------------------- |
+| Open system color picker | `Ctrl + Shift + C` | [SideBarEnhacements](#sidebarenhacements) |
 
 ### Context Tools
 
 #### PlainTasks
 
-[PlainTasks](#plaintasks)  
-`Ctrl + Enter` Add new task  
-`Ctrl + D` Mark task as done (toggle)  
-`Ctrl + Shift + A` Archive task  
-`C + Tab` Tag task priority as Critical  
-`H + Tab` Tag task priority as High  
-`L + Tab` Tag task priority as Low  
-`T + Tab` Tag task priority as Today
+[PlainTasks](#plaintasks)
+
+| Action                        | Keybind            |     |
+| ----------------------------- | ------------------ | --- |
+| Add new task                  | `Ctrl + Enter`     |     |
+| Mark task as done (toggle)    | `Ctrl + D`         |     |
+| Archive task                  | `Ctrl + Shift + A` |     |
+| Tag task priority as Critical | `C + Tab`          |     |
+| Tag task priority as High     | `H + Tab`          |     |
+| Tag task priority as Low      | `L + Tab`          |     |
+| Tag task priority as Today    | `T + Tab`          |     |
 
 ### Examples
 
 ##### Copy/paste text inside html tags, edit and copy/paste back
 
-- Select tag: `Ctrl + D`
-- Move right: `Ctrl + Right`
-- Expand tag selection: `Ctrl + Shift + A`
-- Copy: `Ctrl + C`
-- New file: `Ctrl + N`
-- Paste: `Ctrl + V`
-- Edit text
-- Copy all: `Ctrl + A`
-- Break selection into lines: `Ctrl + Shift + L`
-- Copy multiple selection: `Ctrl + C`
-- Go back to prev file:
-- Paste into selection: `Ctrl + V`
+| Action                     | Keybind            |     |
+| -------------------------- | ------------------ | --- |
+| Select tag                 | `Ctrl + D`         |     |
+| Move right                 | `Ctrl + Right`     |     |
+| Expand tag selection       | `Ctrl + Shift + A` |     |
+| Copy                       | `Ctrl + C`         |     |
+| New file                   | `Ctrl + N`         |     |
+| Paste                      | `Ctrl + V`         |     |
+| Edit text                  |                    |     |
+| Copy all                   | `Ctrl + A`         |     |
+| Break selection into lines | `Ctrl + Shift + L` |     |
+| Copy multiple selection    | `Ctrl + C`         |     |
+| Go back to prev file       |                    |     |
+| Paste into selection       | `Ctrl + V`         |     |
 
 ## Installed Packages
 
@@ -381,8 +443,10 @@ https://github.com/SublimeText/Origami
 
 ## Modified Key Bindings
 
-- `Edit > Paste`: `Ctrl + V` → `Ctrl + Shift + V`
-- `Edit > Paste and Indent`: `Ctrl + Shift + V` → `Ctrl + V`
+| Action                  | Keybind                         |     |
+| ----------------------- | ------------------------------- | --- |
+| Edit > Paste            | `Ctrl + V` → `Ctrl + Shift + V` |     |
+| Edit > Paste and Indent | `Ctrl + Shift + V` → `Ctrl + V` |     |
 
 ## Legend
 
